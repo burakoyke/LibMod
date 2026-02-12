@@ -12,7 +12,7 @@ import java.util.Set;
 
 class PerformanceMeasuring {
     public static void main(String[] args) {
-    String filePath = "packages_packages_dependencies.rsf";
+    String filePath = "java_packages_packages_dependencies_cleaned.rsf";
         Set<String> uniquePackage = new LinkedHashSet<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
@@ -32,8 +32,8 @@ class PerformanceMeasuring {
         //uniquePackage.forEach(System.out::println);
     
        
-        ArrayList<String> package_package = package_convert_list("packages_packages_dependencies.rsf");
-        ArrayList<String> module_package = package_convert_list("modules_packages_dependencies.rsf");
+        ArrayList<String> package_package = package_convert_list("java_packages_packages_dependencies_cleaned.rsf");
+        ArrayList<String> module_package = package_convert_list("java_modules_packages_dependencies_cleaned.rsf");
         writeHeader();
         
         int totalPackSize = 0;

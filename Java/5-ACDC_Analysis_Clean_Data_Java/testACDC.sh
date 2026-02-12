@@ -1,5 +1,12 @@
 #!/bin/bash
 
-java -jar acdc.jar packages_packages_dependencies.rsf c.rsf
-java -jar mojo.jar c.rsf modules_packages_dependencies.rsf -fm
+start=$(date +%s%3N)
+
+java -jar acdc.jar packages_packages_dependencies.rsf java_modules_packages_dependencies_acdc.rsf
+
+end=$(date +%s%3N)
+
+elapsed=$((end - start))
+
+echo "Toplam çalışma süresi: ${elapsed} ms"
 
