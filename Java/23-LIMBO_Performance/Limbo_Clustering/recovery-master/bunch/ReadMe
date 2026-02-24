@@ -1,7 +1,0 @@
-run java bunch.Bunch 
-
-data format:
- 
-A B
-B C
-...

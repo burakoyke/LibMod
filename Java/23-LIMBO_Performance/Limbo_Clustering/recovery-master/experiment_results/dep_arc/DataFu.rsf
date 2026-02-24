@@ -1,2 +1,0 @@
-depends  org.adrianwalker.multilinestring.MultilineProcessor org.adrianwalker.multilinestring.JavacMultilineProcessor
-depends  org.adrianwalker.multilinestring.MultilineProcessor org.adrianwalker.multilinestring.EcjMultilineProcessor
