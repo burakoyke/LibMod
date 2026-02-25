@@ -3,9 +3,9 @@
 This repository contains the dataset, scripts, and benchmarking tools used for the thesis **"A Usage-Driven Optimization Approach to Software Library Modularization"**. The project focuses on a novel optimization model for clustering software entities based on common usage patterns rather than direct dependencies, aimed at reducing redundant imports in software libraries.
 
 ## Authors
-- **BURAK ÖYKE**, Vestel Electronics, Turkey
-- **OKAN ÖRSAN ÖZENER**, Ozyegin University, Turkey
-- **HASAN SÖZER**, Ozyegin University, Turkey
+- **BURAK ÖYKE**, Vestel Electronics, Turkiye
+- **OKAN ÖRSAN ÖZENER**, Ozyegin University, Turkiye
+- **HASAN SÖZER**, Ozyegin University, Turkiye
 
 ---
 
