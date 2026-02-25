@@ -95,7 +95,7 @@ Each clustering algorithm is located in its own subdirectory within the `Benchma
   javac BunchFileConverter.java
   java BunchFileConverter
   ```
-- **MGMC:** Multi-objective Genetic Model Clustering.
+- **MGMC:** Multi-level Greedy Modularity Clustering.
   ```bash
   cd Benchmark/mgmc
   ./testClustering.sh
