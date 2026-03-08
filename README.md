@@ -54,12 +54,19 @@ A Java utility (`UpdateDependency.java`) to reconcile and clean package dependen
 - **Input:** `modules_packages_dependencies.rsf`, `packages_packages_dependencies.rsf`.
 - **Output:** Cleaned `.rsf` files used for benchmarking.
 
-### 3. [Benchmark/](./Benchmark/)
+### 3. [ILP/](./ILP/)
+The proposed Integer Linear Programming models (MM1 and MM2) are implemented in Python using the IBM CPLEX optimizer through the docplex library.
+
+The implementation is provided as a Jupyter Notebook that builds and solves the optimization models based on the prepared dependency datasets.
+- **Input:** `java_modules_packages_dependencies_cleaned.rsf`, `java_packages_packages_dependencies_cleaned.rsf`.
+- **Output:** Cleaned `.rsf` files used for benchmarking.
+
+### 4. [Benchmark/](./Benchmark/)
 Scripts and tools to execute various clustering algorithms for comparison:
 - **Algorithms:** ACDC, Bunch (NAHC/SAHC), MGMC, ILP (Proposed Model), LIMBO, FCA.
 - Each algorithm folder contains its respective JAR file, input data, and a `test.sh` script to run the clustering.
 
-### 4. [Analysis/](./Analysis/)
+### 5. [Analysis/](./Analysis/)
 Scripts to calculate performance metrics and compare results against ground truth.
 - **External Metrics:** Python and shell scripts to calculate MoJoFM and a2a.
 - **Internal Metrics:** Java tools (`PerformanceMeasuring.java`) to calculate NCI and NUFI for each algorithm's output.
@@ -69,9 +76,15 @@ Scripts to calculate performance metrics and compare results against ground trut
 ## Getting Started
 
 ### Prerequisites
-- Java 8 or higher (for data cleaning and benchmarking).
-- Python 3.x (for external metric calculations).
-- Bash shell (to run the test scripts).
+The project requires the following software:
+
+- **Java 8 or higher** (for data cleaning and benchmarking tools)
+- **Python 3.x** (for ILP model execution and external metric calculations)
+- **IBM CPLEX Optimization Studio** (required for solving the ILP models)
+- **Python libraries:** `docplex`, `pandas`, `numpy`, `scipy`, `scikit-learn`
+- **Jupyter Notebook** (to run the ILP implementation)
+- **Bash shell** (to run the benchmarking scripts)
+
 
 ### 1. Data Cleaning
 Preprocess the raw dataset to ensure consistency:
@@ -80,6 +93,21 @@ cd "Data Cleaning"
 javac UpdateDependency.java
 java UpdateDependency
 ```
+
+### 3. Running the ILP Model and Installing Dependencies
+The proposed Integer Linear Programming (ILP) models are implemented in Python using IBM CPLEX.
+
+First, install the required Python dependencies:
+```bash
+pip install docplex pandas numpy scipy scikit-learn jupyter
+```
+Then navigate to the `ILP/` directory and launch Jupyter Notebook:
+First, install the required Python dependencies:
+```bash
+cd ILP
+jupyter notebook
+```
+Open the notebook file and execute the cells sequentially to build and solve the optimization models.
 
 ### 2. Running Benchmarks
 Each clustering algorithm is located in its own subdirectory within the `Benchmark/` folder.
@@ -100,7 +128,6 @@ Each clustering algorithm is located in its own subdirectory within the `Benchma
   cd Benchmark/mgmc
   ./testClustering.sh
   ```
-- **ILP (Proposed Model):** The results of the mathematical models (MM1 and MM2) discussed in the paper are available in `Benchmark/ilp/output`.
 - **LIMBO:** Information-theoretic clustering.
   ```bash
   cd Benchmark/limbo/arcade
