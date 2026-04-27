@@ -1,0 +1,2871 @@
+DEBUG - Abdera
+DEBUG - 
+DEBUG - cluster_algorithm: limbo
+DEBUG - start: 60, range: 60, step: 1
+DEBUG - clustersToStop: 60
+DEBUG - feature set size: 312
+DEBUG - Names in Feature Set:
+DEBUG - [dummy, org.apache.log4j.Appender, org.apache.log4j.AppenderSkeleton, org.apache.log4j.AsyncAppender, org.apache.log4j.AsyncAppender$DiscardSummary, org.apache.log4j.AsyncAppender$Dispatcher, org.apache.log4j.BasicConfigurator, org.apache.log4j.Category, org.apache.log4j.CategoryKey, org.apache.log4j.ConsoleAppender, org.apache.log4j.ConsoleAppender$SystemErrStream, org.apache.log4j.ConsoleAppender$SystemOutStream, org.apache.log4j.DailyRollingFileAppender, org.apache.log4j.DefaultCategoryFactory, org.apache.log4j.DefaultThrowableRenderer, org.apache.log4j.Dispatcher, org.apache.log4j.EnhancedPatternLayout, org.apache.log4j.EnhancedThrowableRenderer, org.apache.log4j.FileAppender, org.apache.log4j.HTMLLayout, org.apache.log4j.Hierarchy, org.apache.log4j.Layout, org.apache.log4j.Level, org.apache.log4j.LogMF, org.apache.log4j.LogManager, org.apache.log4j.LogSF, org.apache.log4j.LogXF, org.apache.log4j.Logger, org.apache.log4j.MDC, org.apache.log4j.NDC, org.apache.log4j.NDC$DiagnosticContext, org.apache.log4j.NameValue, org.apache.log4j.PatternLayout, org.apache.log4j.Priority, org.apache.log4j.PropertyConfigurator, org.apache.log4j.PropertyWatchdog, org.apache.log4j.ProvisionNode, org.apache.log4j.RollingCalendar, org.apache.log4j.RollingFileAppender, org.apache.log4j.SimpleLayout, org.apache.log4j.SortedKeyEnumeration, org.apache.log4j.TTCCLayout, org.apache.log4j.WriterAppender, org.apache.log4j.chainsaw.ControlPanel, org.apache.log4j.chainsaw.ControlPanel$1, org.apache.log4j.chainsaw.ControlPanel$2, org.apache.log4j.chainsaw.ControlPanel$3, org.apache.log4j.chainsaw.ControlPanel$4, org.apache.log4j.chainsaw.ControlPanel$5, org.apache.log4j.chainsaw.ControlPanel$6, org.apache.log4j.chainsaw.ControlPanel$7, org.apache.log4j.chainsaw.DetailPanel, org.apache.log4j.chainsaw.EventDetails, org.apache.log4j.chainsaw.ExitAction, org.apache.log4j.chainsaw.LoadXMLAction, org.apache.log4j.chainsaw.LoggingReceiver, org.apache.log4j.chainsaw.LoggingReceiver$Slurper, org.apache.log4j.chainsaw.Main, org.apache.log4j.chainsaw.Main$1, org.apache.log4j.chainsaw.MyTableModel, org.apache.log4j.chainsaw.MyTableModel$1, org.apache.log4j.chainsaw.MyTableModel$Processor, org.apache.log4j.chainsaw.XMLFileHandler, org.apache.log4j.config.PropertyGetter, org.apache.log4j.config.PropertyGetter$PropertyCallback, org.apache.log4j.config.PropertyPrinter, org.apache.log4j.config.PropertySetter, org.apache.log4j.config.PropertySetterException, org.apache.log4j.helpers.AbsoluteTimeDateFormat, org.apache.log4j.helpers.AppenderAttachableImpl, org.apache.log4j.helpers.BoundedFIFO, org.apache.log4j.helpers.CountingQuietWriter, org.apache.log4j.helpers.CyclicBuffer, org.apache.log4j.helpers.DateLayout, org.apache.log4j.helpers.DateTimeDateFormat, org.apache.log4j.helpers.FileWatchdog, org.apache.log4j.helpers.FormattingInfo, org.apache.log4j.helpers.ISO8601DateFormat, org.apache.log4j.helpers.Loader, org.apache.log4j.helpers.LogLog, org.apache.log4j.helpers.MDCKeySetExtractor, org.apache.log4j.helpers.NullEnumeration, org.apache.log4j.helpers.OnlyOnceErrorHandler, org.apache.log4j.helpers.OptionConverter, org.apache.log4j.helpers.PatternConverter, org.apache.log4j.helpers.PatternParser, org.apache.log4j.helpers.PatternParser$BasicPatternConverter, org.apache.log4j.helpers.PatternParser$CategoryPatternConverter, org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter, org.apache.log4j.helpers.PatternParser$DatePatternConverter, org.apache.log4j.helpers.PatternParser$LiteralPatternConverter, org.apache.log4j.helpers.PatternParser$LocationPatternConverter, org.apache.log4j.helpers.PatternParser$MDCPatternConverter, org.apache.log4j.helpers.PatternParser$NamedPatternConverter, org.apache.log4j.helpers.QuietWriter, org.apache.log4j.helpers.RelativeTimeDateFormat, org.apache.log4j.helpers.SyslogQuietWriter, org.apache.log4j.helpers.SyslogWriter, org.apache.log4j.helpers.ThreadLocalMap, org.apache.log4j.helpers.Transform, org.apache.log4j.helpers.UtilLoggingLevel, org.apache.log4j.jdbc.JDBCAppender, org.apache.log4j.jmx.AbstractDynamicMBean, org.apache.log4j.jmx.Agent, org.apache.log4j.jmx.AppenderDynamicMBean, org.apache.log4j.jmx.HierarchyDynamicMBean, org.apache.log4j.jmx.LayoutDynamicMBean, org.apache.log4j.jmx.LoggerDynamicMBean, org.apache.log4j.jmx.MethodUnion, org.apache.log4j.lf5.AppenderFinalizer, org.apache.log4j.lf5.DefaultLF5Configurator, org.apache.log4j.lf5.LF5Appender, org.apache.log4j.lf5.Log4JLogRecord, org.apache.log4j.lf5.LogLevel, org.apache.log4j.lf5.LogLevelFormatException, org.apache.log4j.lf5.LogRecord, org.apache.log4j.lf5.LogRecordFilter, org.apache.log4j.lf5.PassingLogRecordFilter, org.apache.log4j.lf5.StartLogFactor5, org.apache.log4j.lf5.util.AdapterLogRecord, org.apache.log4j.lf5.util.DateFormatManager, org.apache.log4j.lf5.util.LogFileParser, org.apache.log4j.lf5.util.LogFileParser$1, org.apache.log4j.lf5.util.LogMonitorAdapter, org.apache.log4j.lf5.util.Resource, org.apache.log4j.lf5.util.ResourceUtils, org.apache.log4j.lf5.viewer.FilteredLogTableModel, org.apache.log4j.lf5.viewer.LF5SwingUtils, org.apache.log4j.lf5.viewer.LF5SwingUtils$1, org.apache.log4j.lf5.viewer.LogBrokerMonitor, org.apache.log4j.lf5.viewer.LogBrokerMonitor$1, org.apache.log4j.lf5.viewer.LogBrokerMonitor$10, org.apache.log4j.lf5.viewer.LogBrokerMonitor$11, org.apache.log4j.lf5.viewer.LogBrokerMonitor$12, org.apache.log4j.lf5.viewer.LogBrokerMonitor$13, org.apache.log4j.lf5.viewer.LogBrokerMonitor$14, org.apache.log4j.lf5.viewer.LogBrokerMonitor$15, org.apache.log4j.lf5.viewer.LogBrokerMonitor$16, org.apache.log4j.lf5.viewer.LogBrokerMonitor$17, org.apache.log4j.lf5.viewer.LogBrokerMonitor$18, org.apache.log4j.lf5.viewer.LogBrokerMonitor$19, org.apache.log4j.lf5.viewer.LogBrokerMonitor$2, org.apache.log4j.lf5.viewer.LogBrokerMonitor$20, org.apache.log4j.lf5.viewer.LogBrokerMonitor$21, org.apache.log4j.lf5.viewer.LogBrokerMonitor$22, org.apache.log4j.lf5.viewer.LogBrokerMonitor$23, org.apache.log4j.lf5.viewer.LogBrokerMonitor$24, org.apache.log4j.lf5.viewer.LogBrokerMonitor$25, org.apache.log4j.lf5.viewer.LogBrokerMonitor$26, org.apache.log4j.lf5.viewer.LogBrokerMonitor$27, org.apache.log4j.lf5.viewer.LogBrokerMonitor$28, org.apache.log4j.lf5.viewer.LogBrokerMonitor$29, org.apache.log4j.lf5.viewer.LogBrokerMonitor$3, org.apache.log4j.lf5.viewer.LogBrokerMonitor$30, org.apache.log4j.lf5.viewer.LogBrokerMonitor$31, org.apache.log4j.lf5.viewer.LogBrokerMonitor$32, org.apache.log4j.lf5.viewer.LogBrokerMonitor$4, org.apache.log4j.lf5.viewer.LogBrokerMonitor$5, org.apache.log4j.lf5.viewer.LogBrokerMonitor$6, org.apache.log4j.lf5.viewer.LogBrokerMonitor$7, org.apache.log4j.lf5.viewer.LogBrokerMonitor$8, org.apache.log4j.lf5.viewer.LogBrokerMonitor$9, org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor, org.apache.log4j.lf5.viewer.LogFactor5Dialog, org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog, org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1, org.apache.log4j.lf5.viewer.LogFactor5InputDialog, org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1, org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2, org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3, org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog, org.apache.log4j.lf5.viewer.LogTable, org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener, org.apache.log4j.lf5.viewer.LogTableColumn, org.apache.log4j.lf5.viewer.LogTableColumnFormatException, org.apache.log4j.lf5.viewer.LogTableRowRenderer, org.apache.log4j.lf5.viewer.TrackingAdjustmentListener, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath, org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter, org.apache.log4j.lf5.viewer.configure.ConfigurationManager, org.apache.log4j.lf5.viewer.configure.MRUFileManager, org.apache.log4j.net.DefaultEvaluator, org.apache.log4j.net.JMSAppender, org.apache.log4j.net.JMSSink, org.apache.log4j.net.SMTPAppender, org.apache.log4j.net.SMTPAppender$1, org.apache.log4j.net.SimpleSocketServer, org.apache.log4j.net.SocketAppender, org.apache.log4j.net.SocketAppender$Connector, org.apache.log4j.net.SocketHubAppender, org.apache.log4j.net.SocketHubAppender$ServerMonitor, org.apache.log4j.net.SocketNode, org.apache.log4j.net.SocketServer, org.apache.log4j.net.SyslogAppender, org.apache.log4j.net.TelnetAppender, org.apache.log4j.net.TelnetAppender$SocketHandler, org.apache.log4j.net.ZeroConfSupport, org.apache.log4j.nt.NTEventLogAppender, org.apache.log4j.or.DefaultRenderer, org.apache.log4j.or.ObjectRenderer, org.apache.log4j.or.RendererMap, org.apache.log4j.or.ThreadGroupRenderer, org.apache.log4j.or.jms.MessageRenderer, org.apache.log4j.or.sax.AttributesRenderer, org.apache.log4j.pattern.BridgePatternConverter, org.apache.log4j.pattern.BridgePatternParser, org.apache.log4j.pattern.CachedDateFormat, org.apache.log4j.pattern.ClassNamePatternConverter, org.apache.log4j.pattern.DatePatternConverter, org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat, org.apache.log4j.pattern.FileDatePatternConverter, org.apache.log4j.pattern.FileLocationPatternConverter, org.apache.log4j.pattern.FormattingInfo, org.apache.log4j.pattern.FullLocationPatternConverter, org.apache.log4j.pattern.IntegerPatternConverter, org.apache.log4j.pattern.LevelPatternConverter, org.apache.log4j.pattern.LineLocationPatternConverter, org.apache.log4j.pattern.LineSeparatorPatternConverter, org.apache.log4j.pattern.LiteralPatternConverter, org.apache.log4j.pattern.LogEvent, org.apache.log4j.pattern.LoggerPatternConverter, org.apache.log4j.pattern.LoggingEventPatternConverter, org.apache.log4j.pattern.MessagePatternConverter, org.apache.log4j.pattern.MethodLocationPatternConverter, org.apache.log4j.pattern.NDCPatternConverter, org.apache.log4j.pattern.NameAbbreviator, org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator, org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator, org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator, org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator, org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment, org.apache.log4j.pattern.NamePatternConverter, org.apache.log4j.pattern.PatternConverter, org.apache.log4j.pattern.PatternParser, org.apache.log4j.pattern.PatternParser$ReadOnlyMap, org.apache.log4j.pattern.PropertiesPatternConverter, org.apache.log4j.pattern.RelativeTimePatternConverter, org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp, org.apache.log4j.pattern.SequenceNumberPatternConverter, org.apache.log4j.pattern.ThreadPatternConverter, org.apache.log4j.pattern.ThrowableInformationPatternConverter, org.apache.log4j.rewrite.MapRewritePolicy, org.apache.log4j.rewrite.PropertyRewritePolicy, org.apache.log4j.rewrite.ReflectionRewritePolicy, org.apache.log4j.rewrite.RewriteAppender, org.apache.log4j.rewrite.RewritePolicy, org.apache.log4j.spi.AppenderAttachable, org.apache.log4j.spi.Configurator, org.apache.log4j.spi.DefaultRepositorySelector, org.apache.log4j.spi.ErrorHandler, org.apache.log4j.spi.Filter, org.apache.log4j.spi.HierarchyEventListener, org.apache.log4j.spi.LocationInfo, org.apache.log4j.spi.LoggerFactory, org.apache.log4j.spi.LoggerRepository, org.apache.log4j.spi.LoggingEvent, org.apache.log4j.spi.NOPLogger, org.apache.log4j.spi.NOPLoggerRepository, org.apache.log4j.spi.NullWriter, org.apache.log4j.spi.OptionHandler, org.apache.log4j.spi.RendererSupport, org.apache.log4j.spi.RepositorySelector, org.apache.log4j.spi.RootCategory, org.apache.log4j.spi.RootLogger, org.apache.log4j.spi.ThrowableInformation, org.apache.log4j.spi.ThrowableRenderer, org.apache.log4j.spi.ThrowableRendererSupport, org.apache.log4j.spi.TriggeringEventEvaluator, org.apache.log4j.spi.VectorWriter, org.apache.log4j.varia.DenyAllFilter, org.apache.log4j.varia.ExternallyRolledFileAppender, org.apache.log4j.varia.FallbackErrorHandler, org.apache.log4j.varia.HUP, org.apache.log4j.varia.HUPNode, org.apache.log4j.varia.LevelMatchFilter, org.apache.log4j.varia.LevelRangeFilter, org.apache.log4j.varia.NullAppender, org.apache.log4j.varia.ReloadingPropertyConfigurator, org.apache.log4j.varia.Roller, org.apache.log4j.varia.StringMatchFilter, org.apache.log4j.xml.DOMConfigurator, org.apache.log4j.xml.DOMConfigurator$1, org.apache.log4j.xml.DOMConfigurator$2, org.apache.log4j.xml.DOMConfigurator$3, org.apache.log4j.xml.DOMConfigurator$4, org.apache.log4j.xml.DOMConfigurator$5, org.apache.log4j.xml.DOMConfigurator$ParseAction, org.apache.log4j.xml.Log4jEntityResolver, org.apache.log4j.xml.SAXErrorHandler, org.apache.log4j.xml.UnrecognizedElementHandler, org.apache.log4j.xml.XMLLayout, org.apache.log4j.xml.XMLWatchdog]
+DEBUG - Read in serialized feature vectors...
+DEBUG - Listing initial cluster names using for-each...
+DEBUG - org.apache.log4j.net.SocketAppender
+DEBUG - org.apache.log4j.helpers.PatternConverter
+DEBUG - org.apache.log4j.spi.Filter
+DEBUG - org.apache.log4j.nt.NTEventLogAppender
+DEBUG - org.apache.log4j.pattern.CachedDateFormat
+DEBUG - org.apache.log4j.lf5.viewer.LogTableColumnFormatException
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1
+DEBUG - org.apache.log4j.helpers.FormattingInfo
+DEBUG - org.apache.log4j.helpers.OptionConverter
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator
+DEBUG - org.apache.log4j.lf5.viewer.LF5SwingUtils
+DEBUG - org.apache.log4j.helpers.PatternParser
+DEBUG - org.apache.log4j.net.SMTPAppender$1
+DEBUG - org.apache.log4j.xml.XMLWatchdog
+DEBUG - org.apache.log4j.Category
+DEBUG - org.apache.log4j.jmx.LayoutDynamicMBean
+DEBUG - org.apache.log4j.ConsoleAppender
+DEBUG - org.apache.log4j.rewrite.PropertyRewritePolicy
+DEBUG - org.apache.log4j.xml.DOMConfigurator$ParseAction
+DEBUG - org.apache.log4j.chainsaw.LoggingReceiver$Slurper
+DEBUG - org.apache.log4j.helpers.UtilLoggingLevel
+DEBUG - org.apache.log4j.helpers.PatternParser$NamedPatternConverter
+DEBUG - org.apache.log4j.xml.SAXErrorHandler
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog
+DEBUG - org.apache.log4j.spi.AppenderAttachable
+DEBUG - org.apache.log4j.spi.NullWriter
+DEBUG - org.apache.log4j.pattern.LoggingEventPatternConverter
+DEBUG - org.apache.log4j.lf5.LogLevelFormatException
+DEBUG - org.apache.log4j.config.PropertySetterException
+DEBUG - org.apache.log4j.pattern.ThreadPatternConverter
+DEBUG - dummy
+DEBUG - org.apache.log4j.pattern.MethodLocationPatternConverter
+DEBUG - org.apache.log4j.config.PropertyGetter$PropertyCallback
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog
+DEBUG - org.apache.log4j.lf5.util.LogFileParser$1
+DEBUG - org.apache.log4j.or.jms.MessageRenderer
+DEBUG - org.apache.log4j.spi.RootCategory
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1
+DEBUG - org.apache.log4j.or.sax.AttributesRenderer
+DEBUG - org.apache.log4j.RollingCalendar
+DEBUG - org.apache.log4j.WriterAppender
+DEBUG - org.apache.log4j.varia.DenyAllFilter
+DEBUG - org.apache.log4j.helpers.MDCKeySetExtractor
+DEBUG - org.apache.log4j.pattern.PropertiesPatternConverter
+DEBUG - org.apache.log4j.net.SMTPAppender
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath
+DEBUG - org.apache.log4j.jmx.MethodUnion
+DEBUG - org.apache.log4j.MDC
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree
+DEBUG - org.apache.log4j.chainsaw.LoggingReceiver
+DEBUG - org.apache.log4j.helpers.CyclicBuffer
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog
+DEBUG - org.apache.log4j.SortedKeyEnumeration
+DEBUG - org.apache.log4j.varia.ReloadingPropertyConfigurator
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - org.apache.log4j.helpers.SyslogQuietWriter
+DEBUG - org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat
+DEBUG - org.apache.log4j.helpers.ISO8601DateFormat
+DEBUG - org.apache.log4j.pattern.PatternParser
+DEBUG - org.apache.log4j.pattern.FormattingInfo
+DEBUG - org.apache.log4j.Layout
+DEBUG - org.apache.log4j.pattern.LiteralPatternConverter
+DEBUG - org.apache.log4j.pattern.FullLocationPatternConverter
+DEBUG - org.apache.log4j.rewrite.MapRewritePolicy
+DEBUG - org.apache.log4j.spi.TriggeringEventEvaluator
+DEBUG - org.apache.log4j.spi.DefaultRepositorySelector
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8
+DEBUG - org.apache.log4j.varia.Roller
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2
+DEBUG - org.apache.log4j.net.TelnetAppender$SocketHandler
+DEBUG - org.apache.log4j.pattern.SequenceNumberPatternConverter
+DEBUG - org.apache.log4j.or.ObjectRenderer
+DEBUG - org.apache.log4j.AsyncAppender
+DEBUG - org.apache.log4j.lf5.util.ResourceUtils
+DEBUG - org.apache.log4j.pattern.DatePatternConverter
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor
+DEBUG - org.apache.log4j.helpers.RelativeTimeDateFormat
+DEBUG - org.apache.log4j.spi.LoggerFactory
+DEBUG - org.apache.log4j.spi.LocationInfo
+DEBUG - org.apache.log4j.net.ZeroConfSupport
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.Priority
+DEBUG - org.apache.log4j.pattern.PatternParser$ReadOnlyMap
+DEBUG - org.apache.log4j.DefaultCategoryFactory
+DEBUG - org.apache.log4j.NDC$DiagnosticContext
+DEBUG - org.apache.log4j.helpers.Transform
+DEBUG - org.apache.log4j.jmx.AbstractDynamicMBean
+DEBUG - org.apache.log4j.xml.XMLLayout
+DEBUG - org.apache.log4j.pattern.LogEvent
+DEBUG - org.apache.log4j.CategoryKey
+DEBUG - org.apache.log4j.lf5.viewer.TrackingAdjustmentListener
+DEBUG - org.apache.log4j.helpers.DateLayout
+DEBUG - org.apache.log4j.chainsaw.ControlPanel
+DEBUG - org.apache.log4j.lf5.viewer.configure.MRUFileManager
+DEBUG - org.apache.log4j.chainsaw.ExitAction
+DEBUG - org.apache.log4j.spi.RootLogger
+DEBUG - org.apache.log4j.spi.ErrorHandler
+DEBUG - org.apache.log4j.spi.RendererSupport
+DEBUG - org.apache.log4j.pattern.FileLocationPatternConverter
+DEBUG - org.apache.log4j.helpers.AppenderAttachableImpl
+DEBUG - org.apache.log4j.xml.UnrecognizedElementHandler
+DEBUG - org.apache.log4j.config.PropertyPrinter
+DEBUG - org.apache.log4j.varia.LevelRangeFilter
+DEBUG - org.apache.log4j.AsyncAppender$DiscardSummary
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.chainsaw.MyTableModel
+DEBUG - org.apache.log4j.net.DefaultEvaluator
+DEBUG - org.apache.log4j.DailyRollingFileAppender
+DEBUG - org.apache.log4j.chainsaw.LoadXMLAction
+DEBUG - org.apache.log4j.or.DefaultRenderer
+DEBUG - org.apache.log4j.xml.Log4jEntityResolver
+DEBUG - org.apache.log4j.spi.ThrowableRendererSupport
+DEBUG - org.apache.log4j.Appender
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.lf5.viewer.LogTableRowRenderer
+DEBUG - org.apache.log4j.spi.ThrowableInformation
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator
+DEBUG - org.apache.log4j.lf5.LogRecordFilter
+DEBUG - org.apache.log4j.varia.FallbackErrorHandler
+DEBUG - org.apache.log4j.AppenderSkeleton
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - org.apache.log4j.lf5.viewer.configure.ConfigurationManager
+DEBUG - org.apache.log4j.lf5.viewer.FilteredLogTableModel
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$19
+DEBUG - org.apache.log4j.lf5.AppenderFinalizer
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$11
+DEBUG - org.apache.log4j.config.PropertySetter
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$12
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$13
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$14
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$15
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$16
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$17
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$18
+DEBUG - org.apache.log4j.chainsaw.EventDetails
+DEBUG - org.apache.log4j.net.JMSAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$10
+DEBUG - org.apache.log4j.pattern.NDCPatternConverter
+DEBUG - org.apache.log4j.varia.LevelMatchFilter
+DEBUG - org.apache.log4j.chainsaw.XMLFileHandler
+DEBUG - org.apache.log4j.Hierarchy
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$22
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$23
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$24
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$25
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$26
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$27
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$28
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$29
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$20
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$21
+DEBUG - org.apache.log4j.spi.OptionHandler
+DEBUG - org.apache.log4j.pattern.LoggerPatternConverter
+DEBUG - org.apache.log4j.RollingFileAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$30
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$31
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$32
+DEBUG - org.apache.log4j.helpers.BoundedFIFO
+DEBUG - org.apache.log4j.pattern.ThrowableInformationPatternConverter
+DEBUG - org.apache.log4j.net.TelnetAppender
+DEBUG - org.apache.log4j.EnhancedPatternLayout
+DEBUG - org.apache.log4j.lf5.LF5Appender
+DEBUG - org.apache.log4j.lf5.util.AdapterLogRecord
+DEBUG - org.apache.log4j.pattern.RelativeTimePatternConverter
+DEBUG - org.apache.log4j.net.SocketServer
+DEBUG - org.apache.log4j.helpers.ThreadLocalMap
+DEBUG - org.apache.log4j.chainsaw.DetailPanel
+DEBUG - org.apache.log4j.pattern.LevelPatternConverter
+DEBUG - org.apache.log4j.pattern.FileDatePatternConverter
+DEBUG - org.apache.log4j.TTCCLayout
+DEBUG - org.apache.log4j.varia.StringMatchFilter
+DEBUG - org.apache.log4j.pattern.MessagePatternConverter
+DEBUG - org.apache.log4j.HTMLLayout
+DEBUG - org.apache.log4j.pattern.PatternConverter
+DEBUG - org.apache.log4j.helpers.PatternParser$DatePatternConverter
+DEBUG - org.apache.log4j.pattern.LineSeparatorPatternConverter
+DEBUG - org.apache.log4j.FileAppender
+DEBUG - org.apache.log4j.net.JMSSink
+DEBUG - org.apache.log4j.pattern.BridgePatternConverter
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$5
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$6
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$7
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$1
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$2
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$3
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$4
+DEBUG - org.apache.log4j.NDC
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor
+DEBUG - org.apache.log4j.pattern.IntegerPatternConverter
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3
+DEBUG - org.apache.log4j.NameValue
+DEBUG - org.apache.log4j.helpers.Loader
+DEBUG - org.apache.log4j.spi.NOPLoggerRepository
+DEBUG - org.apache.log4j.helpers.FileWatchdog
+DEBUG - org.apache.log4j.rewrite.RewritePolicy
+DEBUG - org.apache.log4j.spi.VectorWriter
+DEBUG - org.apache.log4j.lf5.util.DateFormatManager
+DEBUG - org.apache.log4j.rewrite.RewriteAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2
+DEBUG - org.apache.log4j.net.SocketAppender$Connector
+DEBUG - org.apache.log4j.rewrite.ReflectionRewritePolicy
+DEBUG - org.apache.log4j.lf5.util.LogMonitorAdapter
+DEBUG - org.apache.log4j.varia.HUPNode
+DEBUG - org.apache.log4j.net.SocketHubAppender$ServerMonitor
+DEBUG - org.apache.log4j.varia.NullAppender
+DEBUG - org.apache.log4j.chainsaw.MyTableModel$1
+DEBUG - org.apache.log4j.PropertyConfigurator
+DEBUG - org.apache.log4j.spi.ThrowableRenderer
+DEBUG - org.apache.log4j.lf5.LogRecord
+DEBUG - org.apache.log4j.pattern.NameAbbreviator
+DEBUG - org.apache.log4j.helpers.CountingQuietWriter
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1
+DEBUG - org.apache.log4j.PatternLayout
+DEBUG - org.apache.log4j.lf5.util.LogFileParser
+DEBUG - org.apache.log4j.lf5.StartLogFactor5
+DEBUG - org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener
+DEBUG - org.apache.log4j.helpers.DateTimeDateFormat
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.xml.DOMConfigurator$2
+DEBUG - org.apache.log4j.xml.DOMConfigurator$3
+DEBUG - org.apache.log4j.xml.DOMConfigurator$4
+DEBUG - org.apache.log4j.xml.DOMConfigurator$5
+DEBUG - org.apache.log4j.helpers.QuietWriter
+DEBUG - org.apache.log4j.xml.DOMConfigurator$1
+DEBUG - org.apache.log4j.ConsoleAppender$SystemOutStream
+DEBUG - org.apache.log4j.chainsaw.Main
+DEBUG - org.apache.log4j.SimpleLayout
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter
+DEBUG - org.apache.log4j.helpers.PatternParser$BasicPatternConverter
+DEBUG - org.apache.log4j.jmx.LoggerDynamicMBean
+DEBUG - org.apache.log4j.helpers.SyslogWriter
+DEBUG - org.apache.log4j.lf5.PassingLogRecordFilter
+DEBUG - org.apache.log4j.helpers.PatternParser$CategoryPatternConverter
+DEBUG - org.apache.log4j.varia.HUP
+DEBUG - org.apache.log4j.helpers.NullEnumeration
+DEBUG - org.apache.log4j.LogMF
+DEBUG - org.apache.log4j.jmx.Agent
+DEBUG - org.apache.log4j.lf5.LogLevel
+DEBUG - org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter
+DEBUG - org.apache.log4j.net.SyslogAppender
+DEBUG - org.apache.log4j.AsyncAppender$Dispatcher
+DEBUG - org.apache.log4j.lf5.DefaultLF5Configurator
+DEBUG - org.apache.log4j.spi.Configurator
+DEBUG - org.apache.log4j.PropertyWatchdog
+DEBUG - org.apache.log4j.net.SocketHubAppender
+DEBUG - org.apache.log4j.jmx.AppenderDynamicMBean
+DEBUG - org.apache.log4j.helpers.PatternParser$MDCPatternConverter
+DEBUG - org.apache.log4j.LogManager
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5Dialog
+DEBUG - org.apache.log4j.EnhancedThrowableRenderer
+DEBUG - org.apache.log4j.or.RendererMap
+DEBUG - org.apache.log4j.ConsoleAppender$SystemErrStream
+DEBUG - org.apache.log4j.pattern.BridgePatternParser
+DEBUG - org.apache.log4j.pattern.ClassNamePatternConverter
+DEBUG - org.apache.log4j.lf5.Log4JLogRecord
+DEBUG - org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp
+DEBUG - org.apache.log4j.helpers.PatternParser$LocationPatternConverter
+DEBUG - org.apache.log4j.jdbc.JDBCAppender
+DEBUG - org.apache.log4j.LogSF
+DEBUG - org.apache.log4j.net.SocketNode
+DEBUG - org.apache.log4j.helpers.OnlyOnceErrorHandler
+DEBUG - org.apache.log4j.ProvisionNode
+DEBUG - org.apache.log4j.config.PropertyGetter
+DEBUG - org.apache.log4j.Dispatcher
+DEBUG - org.apache.log4j.pattern.LineLocationPatternConverter
+DEBUG - org.apache.log4j.lf5.util.Resource
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel
+DEBUG - org.apache.log4j.helpers.PatternParser$LiteralPatternConverter
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer
+DEBUG - org.apache.log4j.chainsaw.MyTableModel$Processor
+DEBUG - org.apache.log4j.lf5.viewer.LogTableColumn
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - org.apache.log4j.varia.ExternallyRolledFileAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$6
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$7
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$4
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$5
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$2
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$3
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$1
+DEBUG - org.apache.log4j.DefaultThrowableRenderer
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement
+DEBUG - org.apache.log4j.BasicConfigurator
+DEBUG - org.apache.log4j.helpers.AbsoluteTimeDateFormat
+DEBUG - org.apache.log4j.Logger
+DEBUG - org.apache.log4j.jmx.HierarchyDynamicMBean
+DEBUG - org.apache.log4j.net.SimpleSocketServer
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$8
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$9
+DEBUG - org.apache.log4j.lf5.viewer.LF5SwingUtils$1
+DEBUG - org.apache.log4j.or.ThreadGroupRenderer
+DEBUG - org.apache.log4j.spi.RepositorySelector
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - org.apache.log4j.xml.DOMConfigurator
+DEBUG - org.apache.log4j.spi.NOPLogger
+DEBUG - org.apache.log4j.LogXF
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator
+DEBUG - org.apache.log4j.chainsaw.Main$1
+DEBUG - org.apache.log4j.spi.HierarchyEventListener
+DEBUG - org.apache.log4j.pattern.NamePatternConverter
+DEBUG - Listing initial cluster names using indexed loop...
+DEBUG - org.apache.log4j.net.SocketAppender
+DEBUG - org.apache.log4j.helpers.PatternConverter
+DEBUG - org.apache.log4j.spi.Filter
+DEBUG - org.apache.log4j.nt.NTEventLogAppender
+DEBUG - org.apache.log4j.pattern.CachedDateFormat
+DEBUG - org.apache.log4j.lf5.viewer.LogTableColumnFormatException
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1
+DEBUG - org.apache.log4j.helpers.FormattingInfo
+DEBUG - org.apache.log4j.helpers.OptionConverter
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator
+DEBUG - org.apache.log4j.lf5.viewer.LF5SwingUtils
+DEBUG - org.apache.log4j.helpers.PatternParser
+DEBUG - org.apache.log4j.net.SMTPAppender$1
+DEBUG - org.apache.log4j.xml.XMLWatchdog
+DEBUG - org.apache.log4j.Category
+DEBUG - org.apache.log4j.jmx.LayoutDynamicMBean
+DEBUG - org.apache.log4j.ConsoleAppender
+DEBUG - org.apache.log4j.rewrite.PropertyRewritePolicy
+DEBUG - org.apache.log4j.xml.DOMConfigurator$ParseAction
+DEBUG - org.apache.log4j.chainsaw.LoggingReceiver$Slurper
+DEBUG - org.apache.log4j.helpers.UtilLoggingLevel
+DEBUG - org.apache.log4j.helpers.PatternParser$NamedPatternConverter
+DEBUG - org.apache.log4j.xml.SAXErrorHandler
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog
+DEBUG - org.apache.log4j.spi.AppenderAttachable
+DEBUG - org.apache.log4j.spi.NullWriter
+DEBUG - org.apache.log4j.pattern.LoggingEventPatternConverter
+DEBUG - org.apache.log4j.lf5.LogLevelFormatException
+DEBUG - org.apache.log4j.config.PropertySetterException
+DEBUG - org.apache.log4j.pattern.ThreadPatternConverter
+DEBUG - dummy
+DEBUG - org.apache.log4j.pattern.MethodLocationPatternConverter
+DEBUG - org.apache.log4j.config.PropertyGetter$PropertyCallback
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog
+DEBUG - org.apache.log4j.lf5.util.LogFileParser$1
+DEBUG - org.apache.log4j.or.jms.MessageRenderer
+DEBUG - org.apache.log4j.spi.RootCategory
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1
+DEBUG - org.apache.log4j.or.sax.AttributesRenderer
+DEBUG - org.apache.log4j.RollingCalendar
+DEBUG - org.apache.log4j.WriterAppender
+DEBUG - org.apache.log4j.varia.DenyAllFilter
+DEBUG - org.apache.log4j.helpers.MDCKeySetExtractor
+DEBUG - org.apache.log4j.pattern.PropertiesPatternConverter
+DEBUG - org.apache.log4j.net.SMTPAppender
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath
+DEBUG - org.apache.log4j.jmx.MethodUnion
+DEBUG - org.apache.log4j.MDC
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree
+DEBUG - org.apache.log4j.chainsaw.LoggingReceiver
+DEBUG - org.apache.log4j.helpers.CyclicBuffer
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog
+DEBUG - org.apache.log4j.SortedKeyEnumeration
+DEBUG - org.apache.log4j.varia.ReloadingPropertyConfigurator
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - org.apache.log4j.helpers.SyslogQuietWriter
+DEBUG - org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat
+DEBUG - org.apache.log4j.helpers.ISO8601DateFormat
+DEBUG - org.apache.log4j.pattern.PatternParser
+DEBUG - org.apache.log4j.pattern.FormattingInfo
+DEBUG - org.apache.log4j.Layout
+DEBUG - org.apache.log4j.pattern.LiteralPatternConverter
+DEBUG - org.apache.log4j.pattern.FullLocationPatternConverter
+DEBUG - org.apache.log4j.rewrite.MapRewritePolicy
+DEBUG - org.apache.log4j.spi.TriggeringEventEvaluator
+DEBUG - org.apache.log4j.spi.DefaultRepositorySelector
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8
+DEBUG - org.apache.log4j.varia.Roller
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2
+DEBUG - org.apache.log4j.net.TelnetAppender$SocketHandler
+DEBUG - org.apache.log4j.pattern.SequenceNumberPatternConverter
+DEBUG - org.apache.log4j.or.ObjectRenderer
+DEBUG - org.apache.log4j.AsyncAppender
+DEBUG - org.apache.log4j.lf5.util.ResourceUtils
+DEBUG - org.apache.log4j.pattern.DatePatternConverter
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor
+DEBUG - org.apache.log4j.helpers.RelativeTimeDateFormat
+DEBUG - org.apache.log4j.spi.LoggerFactory
+DEBUG - org.apache.log4j.spi.LocationInfo
+DEBUG - org.apache.log4j.net.ZeroConfSupport
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.Priority
+DEBUG - org.apache.log4j.pattern.PatternParser$ReadOnlyMap
+DEBUG - org.apache.log4j.DefaultCategoryFactory
+DEBUG - org.apache.log4j.NDC$DiagnosticContext
+DEBUG - org.apache.log4j.helpers.Transform
+DEBUG - org.apache.log4j.jmx.AbstractDynamicMBean
+DEBUG - org.apache.log4j.xml.XMLLayout
+DEBUG - org.apache.log4j.pattern.LogEvent
+DEBUG - org.apache.log4j.CategoryKey
+DEBUG - org.apache.log4j.lf5.viewer.TrackingAdjustmentListener
+DEBUG - org.apache.log4j.helpers.DateLayout
+DEBUG - org.apache.log4j.chainsaw.ControlPanel
+DEBUG - org.apache.log4j.lf5.viewer.configure.MRUFileManager
+DEBUG - org.apache.log4j.chainsaw.ExitAction
+DEBUG - org.apache.log4j.spi.RootLogger
+DEBUG - org.apache.log4j.spi.ErrorHandler
+DEBUG - org.apache.log4j.spi.RendererSupport
+DEBUG - org.apache.log4j.pattern.FileLocationPatternConverter
+DEBUG - org.apache.log4j.helpers.AppenderAttachableImpl
+DEBUG - org.apache.log4j.xml.UnrecognizedElementHandler
+DEBUG - org.apache.log4j.config.PropertyPrinter
+DEBUG - org.apache.log4j.varia.LevelRangeFilter
+DEBUG - org.apache.log4j.AsyncAppender$DiscardSummary
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.chainsaw.MyTableModel
+DEBUG - org.apache.log4j.net.DefaultEvaluator
+DEBUG - org.apache.log4j.DailyRollingFileAppender
+DEBUG - org.apache.log4j.chainsaw.LoadXMLAction
+DEBUG - org.apache.log4j.or.DefaultRenderer
+DEBUG - org.apache.log4j.xml.Log4jEntityResolver
+DEBUG - org.apache.log4j.spi.ThrowableRendererSupport
+DEBUG - org.apache.log4j.Appender
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.lf5.viewer.LogTableRowRenderer
+DEBUG - org.apache.log4j.spi.ThrowableInformation
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator
+DEBUG - org.apache.log4j.lf5.LogRecordFilter
+DEBUG - org.apache.log4j.varia.FallbackErrorHandler
+DEBUG - org.apache.log4j.AppenderSkeleton
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - org.apache.log4j.lf5.viewer.configure.ConfigurationManager
+DEBUG - org.apache.log4j.lf5.viewer.FilteredLogTableModel
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$19
+DEBUG - org.apache.log4j.lf5.AppenderFinalizer
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$11
+DEBUG - org.apache.log4j.config.PropertySetter
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$12
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$13
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$14
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$15
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$16
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$17
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$18
+DEBUG - org.apache.log4j.chainsaw.EventDetails
+DEBUG - org.apache.log4j.net.JMSAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$10
+DEBUG - org.apache.log4j.pattern.NDCPatternConverter
+DEBUG - org.apache.log4j.varia.LevelMatchFilter
+DEBUG - org.apache.log4j.chainsaw.XMLFileHandler
+DEBUG - org.apache.log4j.Hierarchy
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$22
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$23
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$24
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$25
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$26
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$27
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$28
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$29
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$20
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$21
+DEBUG - org.apache.log4j.spi.OptionHandler
+DEBUG - org.apache.log4j.pattern.LoggerPatternConverter
+DEBUG - org.apache.log4j.RollingFileAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$30
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$31
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$32
+DEBUG - org.apache.log4j.helpers.BoundedFIFO
+DEBUG - org.apache.log4j.pattern.ThrowableInformationPatternConverter
+DEBUG - org.apache.log4j.net.TelnetAppender
+DEBUG - org.apache.log4j.EnhancedPatternLayout
+DEBUG - org.apache.log4j.lf5.LF5Appender
+DEBUG - org.apache.log4j.lf5.util.AdapterLogRecord
+DEBUG - org.apache.log4j.pattern.RelativeTimePatternConverter
+DEBUG - org.apache.log4j.net.SocketServer
+DEBUG - org.apache.log4j.helpers.ThreadLocalMap
+DEBUG - org.apache.log4j.chainsaw.DetailPanel
+DEBUG - org.apache.log4j.pattern.LevelPatternConverter
+DEBUG - org.apache.log4j.pattern.FileDatePatternConverter
+DEBUG - org.apache.log4j.TTCCLayout
+DEBUG - org.apache.log4j.varia.StringMatchFilter
+DEBUG - org.apache.log4j.pattern.MessagePatternConverter
+DEBUG - org.apache.log4j.HTMLLayout
+DEBUG - org.apache.log4j.pattern.PatternConverter
+DEBUG - org.apache.log4j.helpers.PatternParser$DatePatternConverter
+DEBUG - org.apache.log4j.pattern.LineSeparatorPatternConverter
+DEBUG - org.apache.log4j.FileAppender
+DEBUG - org.apache.log4j.net.JMSSink
+DEBUG - org.apache.log4j.pattern.BridgePatternConverter
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$5
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$6
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$7
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$1
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$2
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$3
+DEBUG - org.apache.log4j.chainsaw.ControlPanel$4
+DEBUG - org.apache.log4j.NDC
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor
+DEBUG - org.apache.log4j.pattern.IntegerPatternConverter
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3
+DEBUG - org.apache.log4j.NameValue
+DEBUG - org.apache.log4j.helpers.Loader
+DEBUG - org.apache.log4j.spi.NOPLoggerRepository
+DEBUG - org.apache.log4j.helpers.FileWatchdog
+DEBUG - org.apache.log4j.rewrite.RewritePolicy
+DEBUG - org.apache.log4j.spi.VectorWriter
+DEBUG - org.apache.log4j.lf5.util.DateFormatManager
+DEBUG - org.apache.log4j.rewrite.RewriteAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2
+DEBUG - org.apache.log4j.net.SocketAppender$Connector
+DEBUG - org.apache.log4j.rewrite.ReflectionRewritePolicy
+DEBUG - org.apache.log4j.lf5.util.LogMonitorAdapter
+DEBUG - org.apache.log4j.varia.HUPNode
+DEBUG - org.apache.log4j.net.SocketHubAppender$ServerMonitor
+DEBUG - org.apache.log4j.varia.NullAppender
+DEBUG - org.apache.log4j.chainsaw.MyTableModel$1
+DEBUG - org.apache.log4j.PropertyConfigurator
+DEBUG - org.apache.log4j.spi.ThrowableRenderer
+DEBUG - org.apache.log4j.lf5.LogRecord
+DEBUG - org.apache.log4j.pattern.NameAbbreviator
+DEBUG - org.apache.log4j.helpers.CountingQuietWriter
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1
+DEBUG - org.apache.log4j.PatternLayout
+DEBUG - org.apache.log4j.lf5.util.LogFileParser
+DEBUG - org.apache.log4j.lf5.StartLogFactor5
+DEBUG - org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener
+DEBUG - org.apache.log4j.helpers.DateTimeDateFormat
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.xml.DOMConfigurator$2
+DEBUG - org.apache.log4j.xml.DOMConfigurator$3
+DEBUG - org.apache.log4j.xml.DOMConfigurator$4
+DEBUG - org.apache.log4j.xml.DOMConfigurator$5
+DEBUG - org.apache.log4j.helpers.QuietWriter
+DEBUG - org.apache.log4j.xml.DOMConfigurator$1
+DEBUG - org.apache.log4j.ConsoleAppender$SystemOutStream
+DEBUG - org.apache.log4j.chainsaw.Main
+DEBUG - org.apache.log4j.SimpleLayout
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter
+DEBUG - org.apache.log4j.helpers.PatternParser$BasicPatternConverter
+DEBUG - org.apache.log4j.jmx.LoggerDynamicMBean
+DEBUG - org.apache.log4j.helpers.SyslogWriter
+DEBUG - org.apache.log4j.lf5.PassingLogRecordFilter
+DEBUG - org.apache.log4j.helpers.PatternParser$CategoryPatternConverter
+DEBUG - org.apache.log4j.varia.HUP
+DEBUG - org.apache.log4j.helpers.NullEnumeration
+DEBUG - org.apache.log4j.LogMF
+DEBUG - org.apache.log4j.jmx.Agent
+DEBUG - org.apache.log4j.lf5.LogLevel
+DEBUG - org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter
+DEBUG - org.apache.log4j.net.SyslogAppender
+DEBUG - org.apache.log4j.AsyncAppender$Dispatcher
+DEBUG - org.apache.log4j.lf5.DefaultLF5Configurator
+DEBUG - org.apache.log4j.spi.Configurator
+DEBUG - org.apache.log4j.PropertyWatchdog
+DEBUG - org.apache.log4j.net.SocketHubAppender
+DEBUG - org.apache.log4j.jmx.AppenderDynamicMBean
+DEBUG - org.apache.log4j.helpers.PatternParser$MDCPatternConverter
+DEBUG - org.apache.log4j.LogManager
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5Dialog
+DEBUG - org.apache.log4j.EnhancedThrowableRenderer
+DEBUG - org.apache.log4j.or.RendererMap
+DEBUG - org.apache.log4j.ConsoleAppender$SystemErrStream
+DEBUG - org.apache.log4j.pattern.BridgePatternParser
+DEBUG - org.apache.log4j.pattern.ClassNamePatternConverter
+DEBUG - org.apache.log4j.lf5.Log4JLogRecord
+DEBUG - org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp
+DEBUG - org.apache.log4j.helpers.PatternParser$LocationPatternConverter
+DEBUG - org.apache.log4j.jdbc.JDBCAppender
+DEBUG - org.apache.log4j.LogSF
+DEBUG - org.apache.log4j.net.SocketNode
+DEBUG - org.apache.log4j.helpers.OnlyOnceErrorHandler
+DEBUG - org.apache.log4j.ProvisionNode
+DEBUG - org.apache.log4j.config.PropertyGetter
+DEBUG - org.apache.log4j.Dispatcher
+DEBUG - org.apache.log4j.pattern.LineLocationPatternConverter
+DEBUG - org.apache.log4j.lf5.util.Resource
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel
+DEBUG - org.apache.log4j.helpers.PatternParser$LiteralPatternConverter
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer
+DEBUG - org.apache.log4j.chainsaw.MyTableModel$Processor
+DEBUG - org.apache.log4j.lf5.viewer.LogTableColumn
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - org.apache.log4j.varia.ExternallyRolledFileAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$6
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$7
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$4
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$5
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$2
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$3
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$1
+DEBUG - org.apache.log4j.DefaultThrowableRenderer
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement
+DEBUG - org.apache.log4j.BasicConfigurator
+DEBUG - org.apache.log4j.helpers.AbsoluteTimeDateFormat
+DEBUG - org.apache.log4j.Logger
+DEBUG - org.apache.log4j.jmx.HierarchyDynamicMBean
+DEBUG - org.apache.log4j.net.SimpleSocketServer
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$8
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor$9
+DEBUG - org.apache.log4j.lf5.viewer.LF5SwingUtils$1
+DEBUG - org.apache.log4j.or.ThreadGroupRenderer
+DEBUG - org.apache.log4j.spi.RepositorySelector
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - org.apache.log4j.xml.DOMConfigurator
+DEBUG - org.apache.log4j.spi.NOPLogger
+DEBUG - org.apache.log4j.LogXF
+DEBUG - org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator
+DEBUG - org.apache.log4j.chainsaw.Main$1
+DEBUG - org.apache.log4j.spi.HierarchyEventListener
+DEBUG - org.apache.log4j.pattern.NamePatternConverter
+DEBUG - number of initial clusters: 312
+DEBUG - time to create similarity matrix: 404
+DEBUG - time to identify two most similar clusters: 8
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketAppender and org.apache.log4j.helpers.PatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 312
+DEBUG - time to identify two most similar clusters: 3
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.Filter and org.apache.log4j.nt.NTEventLogAppender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 311
+DEBUG - time to identify two most similar clusters: 3
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.CachedDateFormat and org.apache.log4j.lf5.viewer.LogTableColumnFormatException
+DEBUG - dummy
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 310
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1 and org.apache.log4j.helpers.FormattingInfo
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 309
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.OptionConverter and org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 308
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LF5SwingUtils and org.apache.log4j.helpers.PatternParser
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 307
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SMTPAppender$1 and org.apache.log4j.xml.XMLWatchdog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 306
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Category and org.apache.log4j.jmx.LayoutDynamicMBean
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 305
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.ConsoleAppender and org.apache.log4j.rewrite.PropertyRewritePolicy
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 304
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.DOMConfigurator$ParseAction and org.apache.log4j.chainsaw.LoggingReceiver$Slurper
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 303
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.UtilLoggingLevel and org.apache.log4j.helpers.PatternParser$NamedPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 302
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.SAXErrorHandler and org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 301
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.AppenderAttachable and org.apache.log4j.spi.NullWriter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 300
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.LoggingEventPatternConverter and org.apache.log4j.lf5.LogLevelFormatException
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 299
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertySetterException and org.apache.log4j.pattern.ThreadPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 298
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between dummy and org.apache.log4j.pattern.MethodLocationPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 297
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertyGetter$PropertyCallback and org.apache.log4j.lf5.viewer.LogFactor5InputDialog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 296
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.LogFileParser$1 and org.apache.log4j.or.jms.MessageRenderer
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 295
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.RootCategory and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 294
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.or.sax.AttributesRenderer and org.apache.log4j.RollingCalendar
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 293
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.WriterAppender and org.apache.log4j.varia.DenyAllFilter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 292
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.MDCKeySetExtractor and org.apache.log4j.pattern.PropertiesPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 291
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SMTPAppender and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 290
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.jmx.MethodUnion and org.apache.log4j.MDC
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 289
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 288
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.LoggingReceiver and org.apache.log4j.helpers.CyclicBuffer
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 287
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog and org.apache.log4j.SortedKeyEnumeration
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 286
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.varia.ReloadingPropertyConfigurator and org.apache.log4j.spi.LoggerRepository
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 285
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.SyslogQuietWriter and org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 284
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.ISO8601DateFormat and org.apache.log4j.pattern.PatternParser
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 283
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.FormattingInfo and org.apache.log4j.Layout
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 282
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.LiteralPatternConverter and org.apache.log4j.pattern.FullLocationPatternConverter
+DEBUG - org.apache.log4j.pattern.LoggingEventPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 281
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.rewrite.MapRewritePolicy and org.apache.log4j.spi.TriggeringEventEvaluator
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 280
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.DefaultRepositorySelector and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 279
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8 and org.apache.log4j.varia.Roller
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 278
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5 and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 277
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3 and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 276
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1 and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 275
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.TelnetAppender$SocketHandler and org.apache.log4j.pattern.SequenceNumberPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 274
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.or.ObjectRenderer and org.apache.log4j.AsyncAppender
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 273
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.ResourceUtils and org.apache.log4j.pattern.DatePatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 272
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor and org.apache.log4j.helpers.RelativeTimeDateFormat
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 271
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.LoggerFactory and org.apache.log4j.spi.LocationInfo
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 270
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.ZeroConfSupport and org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 269
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Priority and org.apache.log4j.pattern.PatternParser$ReadOnlyMap
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 268
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.DefaultCategoryFactory and org.apache.log4j.NDC$DiagnosticContext
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 267
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.Transform and org.apache.log4j.jmx.AbstractDynamicMBean
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 266
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.XMLLayout and org.apache.log4j.pattern.LogEvent
+DEBUG - org.apache.log4j.spi.LocationInfo
+DEBUG - org.apache.log4j.Level
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 265
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.CategoryKey and org.apache.log4j.lf5.viewer.TrackingAdjustmentListener
+DEBUG - dummy
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 264
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.DateLayout and org.apache.log4j.chainsaw.ControlPanel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 263
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.configure.MRUFileManager and org.apache.log4j.chainsaw.ExitAction
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 262
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.RootLogger and org.apache.log4j.spi.ErrorHandler
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 261
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.RendererSupport and org.apache.log4j.pattern.FileLocationPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 260
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.AppenderAttachableImpl and org.apache.log4j.xml.UnrecognizedElementHandler
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 259
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertyPrinter and org.apache.log4j.varia.LevelRangeFilter
+DEBUG - org.apache.log4j.Level
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 258
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.AsyncAppender$DiscardSummary and org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 257
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.MyTableModel and org.apache.log4j.net.DefaultEvaluator
+DEBUG - org.apache.log4j.Priority
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 256
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.DailyRollingFileAppender and org.apache.log4j.chainsaw.LoadXMLAction
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 255
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.or.DefaultRenderer and org.apache.log4j.xml.Log4jEntityResolver
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 254
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.ThrowableRendererSupport and org.apache.log4j.Appender
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 253
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter and org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 252
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogTableRowRenderer and org.apache.log4j.spi.ThrowableInformation
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 251
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator and org.apache.log4j.lf5.LogRecordFilter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 250
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.varia.FallbackErrorHandler and org.apache.log4j.AppenderSkeleton
+DEBUG - org.apache.log4j.Appender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.spi.ErrorHandler
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 249
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogTable and org.apache.log4j.lf5.viewer.configure.ConfigurationManager
+DEBUG - org.apache.log4j.lf5.viewer.LogTableColumn
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 248
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.FilteredLogTableModel and org.apache.log4j.lf5.viewer.LogBrokerMonitor$19
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 247
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.AppenderFinalizer and org.apache.log4j.lf5.viewer.LogBrokerMonitor$11
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 246
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertySetter and org.apache.log4j.lf5.viewer.LogBrokerMonitor$12
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 245
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$13 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$14
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 244
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$15 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$16
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 243
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$17 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$18
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 242
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.EventDetails and org.apache.log4j.net.JMSAppender
+DEBUG - org.apache.log4j.spi.LocationInfo
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 241
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$10 and org.apache.log4j.pattern.NDCPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 240
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.varia.LevelMatchFilter and org.apache.log4j.chainsaw.XMLFileHandler
+DEBUG - org.apache.log4j.Level
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 239
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Hierarchy and org.apache.log4j.lf5.viewer.LogBrokerMonitor$22
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 238
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$23 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$24
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 237
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$25 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$26
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 236
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$27 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$28
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - org.apache.log4j.lf5.viewer.FilteredLogTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 235
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$29 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$20
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 234
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$21 and org.apache.log4j.spi.OptionHandler
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 233
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.LoggerPatternConverter and org.apache.log4j.RollingFileAppender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 232
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$30 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$31
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 231
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$32 and org.apache.log4j.helpers.BoundedFIFO
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 230
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.ThrowableInformationPatternConverter and org.apache.log4j.net.TelnetAppender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 229
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.EnhancedPatternLayout and org.apache.log4j.lf5.LF5Appender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 228
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.AdapterLogRecord and org.apache.log4j.pattern.RelativeTimePatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 227
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketServer and org.apache.log4j.helpers.ThreadLocalMap
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 226
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.DetailPanel and org.apache.log4j.pattern.LevelPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 225
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.FileDatePatternConverter and org.apache.log4j.TTCCLayout
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 224
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.varia.StringMatchFilter and org.apache.log4j.pattern.MessagePatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 223
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.HTMLLayout and org.apache.log4j.pattern.PatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 222
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.PatternParser$DatePatternConverter and org.apache.log4j.pattern.LineSeparatorPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 221
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.FileAppender and org.apache.log4j.net.JMSSink
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 220
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.BridgePatternConverter and org.apache.log4j.chainsaw.ControlPanel$5
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 219
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.ControlPanel$6 and org.apache.log4j.chainsaw.ControlPanel$7
+DEBUG - org.apache.log4j.chainsaw.ControlPanel
+DEBUG - org.apache.log4j.chainsaw.MyTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 218
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.ControlPanel$1 and org.apache.log4j.chainsaw.ControlPanel$2
+DEBUG - org.apache.log4j.chainsaw.ControlPanel
+DEBUG - org.apache.log4j.chainsaw.MyTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 217
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.ControlPanel$3 and org.apache.log4j.chainsaw.ControlPanel$4
+DEBUG - org.apache.log4j.chainsaw.ControlPanel
+DEBUG - org.apache.log4j.chainsaw.MyTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 216
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.NDC and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 215
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.IntegerPatternConverter and org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 214
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.NameValue and org.apache.log4j.helpers.Loader
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 213
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.NOPLoggerRepository and org.apache.log4j.helpers.FileWatchdog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 212
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.rewrite.RewritePolicy and org.apache.log4j.spi.VectorWriter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 211
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.DateFormatManager and org.apache.log4j.rewrite.RewriteAppender
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 210
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1 and org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5InputDialog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 209
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketAppender$Connector and org.apache.log4j.rewrite.ReflectionRewritePolicy
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 208
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.LogMonitorAdapter and org.apache.log4j.varia.HUPNode
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 207
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketHubAppender$ServerMonitor and org.apache.log4j.varia.NullAppender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 206
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.MyTableModel$1 and org.apache.log4j.PropertyConfigurator
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 205
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.ThrowableRenderer and org.apache.log4j.lf5.LogRecord
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 204
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.NameAbbreviator and org.apache.log4j.helpers.CountingQuietWriter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 203
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1 and org.apache.log4j.PatternLayout
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 202
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.LogFileParser and org.apache.log4j.lf5.StartLogFactor5
+DEBUG - org.apache.log4j.lf5.LogLevel
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 201
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener and org.apache.log4j.helpers.DateTimeDateFormat
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 200
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Level and org.apache.log4j.xml.DOMConfigurator$2
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 199
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.DOMConfigurator$3 and org.apache.log4j.xml.DOMConfigurator$4
+DEBUG - org.apache.log4j.xml.DOMConfigurator$ParseAction
+DEBUG - org.apache.log4j.xml.DOMConfigurator
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 198
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.DOMConfigurator$5 and org.apache.log4j.helpers.QuietWriter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 197
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.DOMConfigurator$1 and org.apache.log4j.ConsoleAppender$SystemOutStream
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 196
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.Main and org.apache.log4j.SimpleLayout
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 195
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter and org.apache.log4j.helpers.PatternParser$BasicPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 194
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.jmx.LoggerDynamicMBean and org.apache.log4j.helpers.SyslogWriter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 193
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.PassingLogRecordFilter and org.apache.log4j.helpers.PatternParser$CategoryPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 192
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.varia.HUP and org.apache.log4j.helpers.NullEnumeration
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 191
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.LogMF and org.apache.log4j.jmx.Agent
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 190
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.LogLevel and org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 189
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SyslogAppender and org.apache.log4j.AsyncAppender$Dispatcher
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 188
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.DefaultLF5Configurator and org.apache.log4j.spi.Configurator
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 187
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.PropertyWatchdog and org.apache.log4j.net.SocketHubAppender
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 186
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.jmx.AppenderDynamicMBean and org.apache.log4j.helpers.PatternParser$MDCPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 185
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.LogManager and org.apache.log4j.lf5.viewer.LogFactor5Dialog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 184
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.EnhancedThrowableRenderer and org.apache.log4j.or.RendererMap
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 183
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.ConsoleAppender$SystemErrStream and org.apache.log4j.pattern.BridgePatternParser
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 182
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.ClassNamePatternConverter and org.apache.log4j.lf5.Log4JLogRecord
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 181
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp and org.apache.log4j.helpers.PatternParser$LocationPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 180
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.jdbc.JDBCAppender and org.apache.log4j.LogSF
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 179
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketNode and org.apache.log4j.helpers.OnlyOnceErrorHandler
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 178
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.ProvisionNode and org.apache.log4j.config.PropertyGetter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 177
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Dispatcher and org.apache.log4j.pattern.LineLocationPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 176
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.Resource and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 175
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.PatternParser$LiteralPatternConverter and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 174
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.MyTableModel$Processor and org.apache.log4j.lf5.viewer.LogTableColumn
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 173
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 172
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.varia.ExternallyRolledFileAppender and org.apache.log4j.lf5.viewer.LogBrokerMonitor$6
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 171
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$7 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$4
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 170
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$5 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$2
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 169
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$3 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$1
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 168
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.DefaultThrowableRenderer and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 167
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.BasicConfigurator and org.apache.log4j.helpers.AbsoluteTimeDateFormat
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 166
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Logger and org.apache.log4j.jmx.HierarchyDynamicMBean
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Category
+DEBUG - org.apache.log4j.LogManager
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 165
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SimpleSocketServer and org.apache.log4j.lf5.viewer.LogBrokerMonitor$8
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 164
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer and org.apache.log4j.lf5.viewer.LogBrokerMonitor$9
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 163
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LF5SwingUtils$1 and org.apache.log4j.or.ThreadGroupRenderer
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 162
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.RepositorySelector and org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 161
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor and org.apache.log4j.xml.DOMConfigurator
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 160
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.NOPLogger and org.apache.log4j.LogXF
+DEBUG - org.apache.log4j.Priority
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Category
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 159
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator and org.apache.log4j.chainsaw.Main$1
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 158
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.HierarchyEventListener and org.apache.log4j.pattern.NamePatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 157
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketAppender,org.apache.log4j.helpers.PatternConverter and org.apache.log4j.spi.Filter,org.apache.log4j.nt.NTEventLogAppender
+DEBUG - org.apache.log4j.AppenderSkeleton
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 156
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.CachedDateFormat,org.apache.log4j.lf5.viewer.LogTableColumnFormatException and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1,org.apache.log4j.helpers.FormattingInfo
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 155
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.OptionConverter,org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator and org.apache.log4j.lf5.viewer.LF5SwingUtils,org.apache.log4j.helpers.PatternParser
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 154
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SMTPAppender$1,org.apache.log4j.xml.XMLWatchdog and org.apache.log4j.Category,org.apache.log4j.jmx.LayoutDynamicMBean
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - org.apache.log4j.LogManager
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 153
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.ConsoleAppender,org.apache.log4j.rewrite.PropertyRewritePolicy and org.apache.log4j.xml.DOMConfigurator$ParseAction,org.apache.log4j.chainsaw.LoggingReceiver$Slurper
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 152
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.UtilLoggingLevel,org.apache.log4j.helpers.PatternParser$NamedPatternConverter and org.apache.log4j.xml.SAXErrorHandler,org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 151
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.AppenderAttachable,org.apache.log4j.spi.NullWriter and org.apache.log4j.pattern.LoggingEventPatternConverter,org.apache.log4j.lf5.LogLevelFormatException
+DEBUG - dummy
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 150
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertySetterException,org.apache.log4j.pattern.ThreadPatternConverter and dummy,org.apache.log4j.pattern.MethodLocationPatternConverter
+DEBUG - org.apache.log4j.pattern.LoggingEventPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 149
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertyGetter$PropertyCallback,org.apache.log4j.lf5.viewer.LogFactor5InputDialog and org.apache.log4j.lf5.util.LogFileParser$1,org.apache.log4j.or.jms.MessageRenderer
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 148
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.RootCategory,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1 and org.apache.log4j.or.sax.AttributesRenderer,org.apache.log4j.RollingCalendar
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 147
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.WriterAppender,org.apache.log4j.varia.DenyAllFilter and org.apache.log4j.helpers.MDCKeySetExtractor,org.apache.log4j.pattern.PropertiesPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 146
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SMTPAppender,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath and org.apache.log4j.jmx.MethodUnion,org.apache.log4j.MDC
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 145
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree and org.apache.log4j.chainsaw.LoggingReceiver,org.apache.log4j.helpers.CyclicBuffer
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 144
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog,org.apache.log4j.SortedKeyEnumeration and org.apache.log4j.varia.ReloadingPropertyConfigurator,org.apache.log4j.spi.LoggerRepository
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 143
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.SyslogQuietWriter,org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat and org.apache.log4j.helpers.ISO8601DateFormat,org.apache.log4j.pattern.PatternParser
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 142
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.FormattingInfo,org.apache.log4j.Layout and org.apache.log4j.pattern.LiteralPatternConverter,org.apache.log4j.pattern.FullLocationPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 141
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.rewrite.MapRewritePolicy,org.apache.log4j.spi.TriggeringEventEvaluator and org.apache.log4j.spi.DefaultRepositorySelector,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 140
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8,org.apache.log4j.varia.Roller and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 139
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4 and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 138
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.TelnetAppender$SocketHandler,org.apache.log4j.pattern.SequenceNumberPatternConverter and org.apache.log4j.or.ObjectRenderer,org.apache.log4j.AsyncAppender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 137
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.ResourceUtils,org.apache.log4j.pattern.DatePatternConverter and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor,org.apache.log4j.helpers.RelativeTimeDateFormat
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 136
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.LoggerFactory,org.apache.log4j.spi.LocationInfo and org.apache.log4j.net.ZeroConfSupport,org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 135
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Priority,org.apache.log4j.pattern.PatternParser$ReadOnlyMap and org.apache.log4j.DefaultCategoryFactory,org.apache.log4j.NDC$DiagnosticContext
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 134
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.Transform,org.apache.log4j.jmx.AbstractDynamicMBean and org.apache.log4j.xml.XMLLayout,org.apache.log4j.pattern.LogEvent
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 133
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.CategoryKey,org.apache.log4j.lf5.viewer.TrackingAdjustmentListener and org.apache.log4j.helpers.DateLayout,org.apache.log4j.chainsaw.ControlPanel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 132
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.configure.MRUFileManager,org.apache.log4j.chainsaw.ExitAction and org.apache.log4j.spi.RootLogger,org.apache.log4j.spi.ErrorHandler
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 131
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.RendererSupport,org.apache.log4j.pattern.FileLocationPatternConverter and org.apache.log4j.helpers.AppenderAttachableImpl,org.apache.log4j.xml.UnrecognizedElementHandler
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 130
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertyPrinter,org.apache.log4j.varia.LevelRangeFilter and org.apache.log4j.AsyncAppender$DiscardSummary,org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.Priority
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Category
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 129
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.MyTableModel,org.apache.log4j.net.DefaultEvaluator and org.apache.log4j.DailyRollingFileAppender,org.apache.log4j.chainsaw.LoadXMLAction
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 128
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.or.DefaultRenderer,org.apache.log4j.xml.Log4jEntityResolver and org.apache.log4j.spi.ThrowableRendererSupport,org.apache.log4j.Appender
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 127
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter,org.apache.log4j.spi.LoggingEvent and org.apache.log4j.lf5.viewer.LogTableRowRenderer,org.apache.log4j.spi.ThrowableInformation
+DEBUG - org.apache.log4j.Category
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 126
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator,org.apache.log4j.lf5.LogRecordFilter and org.apache.log4j.varia.FallbackErrorHandler,org.apache.log4j.AppenderSkeleton
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 125
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogTable,org.apache.log4j.lf5.viewer.configure.ConfigurationManager and org.apache.log4j.lf5.viewer.FilteredLogTableModel,org.apache.log4j.lf5.viewer.LogBrokerMonitor$19
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.lf5.LogLevel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 124
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.AppenderFinalizer,org.apache.log4j.lf5.viewer.LogBrokerMonitor$11 and org.apache.log4j.config.PropertySetter,org.apache.log4j.lf5.viewer.LogBrokerMonitor$12
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 123
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$13,org.apache.log4j.lf5.viewer.LogBrokerMonitor$14 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$15,org.apache.log4j.lf5.viewer.LogBrokerMonitor$16
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 122
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$17,org.apache.log4j.lf5.viewer.LogBrokerMonitor$18 and org.apache.log4j.chainsaw.EventDetails,org.apache.log4j.net.JMSAppender
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 121
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$10,org.apache.log4j.pattern.NDCPatternConverter and org.apache.log4j.varia.LevelMatchFilter,org.apache.log4j.chainsaw.XMLFileHandler
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 120
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Hierarchy,org.apache.log4j.lf5.viewer.LogBrokerMonitor$22 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$23,org.apache.log4j.lf5.viewer.LogBrokerMonitor$24
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 119
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$25,org.apache.log4j.lf5.viewer.LogBrokerMonitor$26 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$27,org.apache.log4j.lf5.viewer.LogBrokerMonitor$28
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 118
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$29,org.apache.log4j.lf5.viewer.LogBrokerMonitor$20 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$21,org.apache.log4j.spi.OptionHandler
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 117
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.LoggerPatternConverter,org.apache.log4j.RollingFileAppender and org.apache.log4j.lf5.viewer.LogBrokerMonitor$30,org.apache.log4j.lf5.viewer.LogBrokerMonitor$31
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 116
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$32,org.apache.log4j.helpers.BoundedFIFO and org.apache.log4j.pattern.ThrowableInformationPatternConverter,org.apache.log4j.net.TelnetAppender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 115
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.EnhancedPatternLayout,org.apache.log4j.lf5.LF5Appender and org.apache.log4j.lf5.util.AdapterLogRecord,org.apache.log4j.pattern.RelativeTimePatternConverter
+DEBUG - org.apache.log4j.lf5.LogLevel
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.lf5.LogRecord
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 114
+DEBUG - time to identify two most similar clusters: 1
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketServer,org.apache.log4j.helpers.ThreadLocalMap and org.apache.log4j.chainsaw.DetailPanel,org.apache.log4j.pattern.LevelPatternConverter
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 113
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.FileDatePatternConverter,org.apache.log4j.TTCCLayout and org.apache.log4j.varia.StringMatchFilter,org.apache.log4j.pattern.MessagePatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 112
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.HTMLLayout,org.apache.log4j.pattern.PatternConverter and org.apache.log4j.helpers.PatternParser$DatePatternConverter,org.apache.log4j.pattern.LineSeparatorPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Layout
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 111
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.FileAppender,org.apache.log4j.net.JMSSink and org.apache.log4j.pattern.BridgePatternConverter,org.apache.log4j.chainsaw.ControlPanel$5
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 110
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.ControlPanel$6,org.apache.log4j.chainsaw.ControlPanel$7 and org.apache.log4j.chainsaw.ControlPanel$1,org.apache.log4j.chainsaw.ControlPanel$2
+DEBUG - org.apache.log4j.chainsaw.ControlPanel
+DEBUG - org.apache.log4j.chainsaw.MyTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 109
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.ControlPanel$3,org.apache.log4j.chainsaw.ControlPanel$4 and org.apache.log4j.NDC,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 108
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.IntegerPatternConverter,org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3 and org.apache.log4j.NameValue,org.apache.log4j.helpers.Loader
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 107
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.NOPLoggerRepository,org.apache.log4j.helpers.FileWatchdog and org.apache.log4j.rewrite.RewritePolicy,org.apache.log4j.spi.VectorWriter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 106
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.DateFormatManager,org.apache.log4j.rewrite.RewriteAppender and org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1,org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 105
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketAppender$Connector,org.apache.log4j.rewrite.ReflectionRewritePolicy and org.apache.log4j.lf5.util.LogMonitorAdapter,org.apache.log4j.varia.HUPNode
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 104
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketHubAppender$ServerMonitor,org.apache.log4j.varia.NullAppender and org.apache.log4j.chainsaw.MyTableModel$1,org.apache.log4j.PropertyConfigurator
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 103
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.ThrowableRenderer,org.apache.log4j.lf5.LogRecord and org.apache.log4j.pattern.NameAbbreviator,org.apache.log4j.helpers.CountingQuietWriter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 102
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1,org.apache.log4j.PatternLayout and org.apache.log4j.lf5.util.LogFileParser,org.apache.log4j.lf5.StartLogFactor5
+DEBUG - org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 101
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener,org.apache.log4j.helpers.DateTimeDateFormat and org.apache.log4j.Level,org.apache.log4j.xml.DOMConfigurator$2
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 100
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.DOMConfigurator$3,org.apache.log4j.xml.DOMConfigurator$4 and org.apache.log4j.xml.DOMConfigurator$5,org.apache.log4j.helpers.QuietWriter
+DEBUG - org.apache.log4j.xml.DOMConfigurator$ParseAction
+DEBUG - org.apache.log4j.xml.DOMConfigurator
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 99
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.xml.DOMConfigurator$1,org.apache.log4j.ConsoleAppender$SystemOutStream and org.apache.log4j.chainsaw.Main,org.apache.log4j.SimpleLayout
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 98
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter,org.apache.log4j.helpers.PatternParser$BasicPatternConverter and org.apache.log4j.jmx.LoggerDynamicMBean,org.apache.log4j.helpers.SyslogWriter
+DEBUG - org.apache.log4j.Level
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 97
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.PassingLogRecordFilter,org.apache.log4j.helpers.PatternParser$CategoryPatternConverter and org.apache.log4j.varia.HUP,org.apache.log4j.helpers.NullEnumeration
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 96
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.LogMF,org.apache.log4j.jmx.Agent and org.apache.log4j.lf5.LogLevel,org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 95
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SyslogAppender,org.apache.log4j.AsyncAppender$Dispatcher and org.apache.log4j.lf5.DefaultLF5Configurator,org.apache.log4j.spi.Configurator
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 94
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.PropertyWatchdog,org.apache.log4j.net.SocketHubAppender and org.apache.log4j.jmx.AppenderDynamicMBean,org.apache.log4j.helpers.PatternParser$MDCPatternConverter
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 93
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.LogManager,org.apache.log4j.lf5.viewer.LogFactor5Dialog and org.apache.log4j.EnhancedThrowableRenderer,org.apache.log4j.or.RendererMap
+DEBUG - org.apache.log4j.helpers.Loader
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.helpers.OptionConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 92
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.ConsoleAppender$SystemErrStream,org.apache.log4j.pattern.BridgePatternParser and org.apache.log4j.pattern.ClassNamePatternConverter,org.apache.log4j.lf5.Log4JLogRecord
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 91
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp,org.apache.log4j.helpers.PatternParser$LocationPatternConverter and org.apache.log4j.jdbc.JDBCAppender,org.apache.log4j.LogSF
+DEBUG - org.apache.log4j.spi.LocationInfo
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 90
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketNode,org.apache.log4j.helpers.OnlyOnceErrorHandler and org.apache.log4j.ProvisionNode,org.apache.log4j.config.PropertyGetter
+DEBUG - org.apache.log4j.Logger
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 89
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Dispatcher,org.apache.log4j.pattern.LineLocationPatternConverter and org.apache.log4j.lf5.util.Resource,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 88
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.PatternParser$LiteralPatternConverter,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer and org.apache.log4j.chainsaw.MyTableModel$Processor,org.apache.log4j.lf5.viewer.LogTableColumn
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 87
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode and org.apache.log4j.varia.ExternallyRolledFileAppender,org.apache.log4j.lf5.viewer.LogBrokerMonitor$6
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 86
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$7,org.apache.log4j.lf5.viewer.LogBrokerMonitor$4 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$5,org.apache.log4j.lf5.viewer.LogBrokerMonitor$2
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.lf5.LogRecord
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - org.apache.log4j.lf5.viewer.FilteredLogTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 85
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$3,org.apache.log4j.lf5.viewer.LogBrokerMonitor$1 and org.apache.log4j.DefaultThrowableRenderer,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 84
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.BasicConfigurator,org.apache.log4j.helpers.AbsoluteTimeDateFormat and org.apache.log4j.Logger,org.apache.log4j.jmx.HierarchyDynamicMBean
+DEBUG - org.apache.log4j.Appender
+DEBUG - org.apache.log4j.LogManager
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 83
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SimpleSocketServer,org.apache.log4j.lf5.viewer.LogBrokerMonitor$8 and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer,org.apache.log4j.lf5.viewer.LogBrokerMonitor$9
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - org.apache.log4j.lf5.viewer.FilteredLogTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 82
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LF5SwingUtils$1,org.apache.log4j.or.ThreadGroupRenderer and org.apache.log4j.spi.RepositorySelector,org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 81
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor,org.apache.log4j.xml.DOMConfigurator and org.apache.log4j.spi.NOPLogger,org.apache.log4j.LogXF
+DEBUG - org.apache.log4j.Appender
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 80
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator,org.apache.log4j.chainsaw.Main$1 and org.apache.log4j.spi.HierarchyEventListener,org.apache.log4j.pattern.NamePatternConverter
+DEBUG - org.apache.log4j.pattern.NameAbbreviator
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 79
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.net.SocketAppender,org.apache.log4j.helpers.PatternConverter,org.apache.log4j.spi.Filter,org.apache.log4j.nt.NTEventLogAppender and org.apache.log4j.pattern.CachedDateFormat,org.apache.log4j.lf5.viewer.LogTableColumnFormatException,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1,org.apache.log4j.helpers.FormattingInfo
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 78
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.OptionConverter,org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator,org.apache.log4j.lf5.viewer.LF5SwingUtils,org.apache.log4j.helpers.PatternParser and org.apache.log4j.net.SMTPAppender$1,org.apache.log4j.xml.XMLWatchdog,org.apache.log4j.Category,org.apache.log4j.jmx.LayoutDynamicMBean
+DEBUG - org.apache.log4j.spi.LoggerRepository
+DEBUG - org.apache.log4j.helpers.OptionConverter
+DEBUG - org.apache.log4j.Layout
+DEBUG - org.apache.log4j.Level
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 77
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.ConsoleAppender,org.apache.log4j.rewrite.PropertyRewritePolicy,org.apache.log4j.xml.DOMConfigurator$ParseAction,org.apache.log4j.chainsaw.LoggingReceiver$Slurper and org.apache.log4j.helpers.UtilLoggingLevel,org.apache.log4j.helpers.PatternParser$NamedPatternConverter,org.apache.log4j.xml.SAXErrorHandler,org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Level
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 76
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.AppenderAttachable,org.apache.log4j.spi.NullWriter,org.apache.log4j.pattern.LoggingEventPatternConverter,org.apache.log4j.lf5.LogLevelFormatException and org.apache.log4j.config.PropertySetterException,org.apache.log4j.pattern.ThreadPatternConverter,dummy,org.apache.log4j.pattern.MethodLocationPatternConverter
+DEBUG - dummy
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 75
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.config.PropertyGetter$PropertyCallback,org.apache.log4j.lf5.viewer.LogFactor5InputDialog,org.apache.log4j.lf5.util.LogFileParser$1,org.apache.log4j.or.jms.MessageRenderer and org.apache.log4j.spi.RootCategory,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1,org.apache.log4j.or.sax.AttributesRenderer,org.apache.log4j.RollingCalendar
+DEBUG - org.apache.log4j.or.ObjectRenderer
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 74
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.WriterAppender,org.apache.log4j.varia.DenyAllFilter,org.apache.log4j.helpers.MDCKeySetExtractor,org.apache.log4j.pattern.PropertiesPatternConverter and org.apache.log4j.net.SMTPAppender,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath,org.apache.log4j.jmx.MethodUnion,org.apache.log4j.MDC
+DEBUG - org.apache.log4j.AppenderSkeleton
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Layout
+DEBUG - org.apache.log4j.spi.ErrorHandler
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 73
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree,org.apache.log4j.chainsaw.LoggingReceiver,org.apache.log4j.helpers.CyclicBuffer and org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog,org.apache.log4j.SortedKeyEnumeration,org.apache.log4j.varia.ReloadingPropertyConfigurator,org.apache.log4j.spi.LoggerRepository
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 72
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.helpers.SyslogQuietWriter,org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat,org.apache.log4j.helpers.ISO8601DateFormat,org.apache.log4j.pattern.PatternParser and org.apache.log4j.pattern.FormattingInfo,org.apache.log4j.Layout,org.apache.log4j.pattern.LiteralPatternConverter,org.apache.log4j.pattern.FullLocationPatternConverter
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 71
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.rewrite.MapRewritePolicy,org.apache.log4j.spi.TriggeringEventEvaluator,org.apache.log4j.spi.DefaultRepositorySelector,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7 and org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8,org.apache.log4j.varia.Roller,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+DEBUG - org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 70
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2 and org.apache.log4j.net.TelnetAppender$SocketHandler,org.apache.log4j.pattern.SequenceNumberPatternConverter,org.apache.log4j.or.ObjectRenderer,org.apache.log4j.AsyncAppender
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 69
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.util.ResourceUtils,org.apache.log4j.pattern.DatePatternConverter,org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor,org.apache.log4j.helpers.RelativeTimeDateFormat and org.apache.log4j.spi.LoggerFactory,org.apache.log4j.spi.LocationInfo,org.apache.log4j.net.ZeroConfSupport,org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 68
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.Priority,org.apache.log4j.pattern.PatternParser$ReadOnlyMap,org.apache.log4j.DefaultCategoryFactory,org.apache.log4j.NDC$DiagnosticContext and org.apache.log4j.helpers.Transform,org.apache.log4j.jmx.AbstractDynamicMBean,org.apache.log4j.xml.XMLLayout,org.apache.log4j.pattern.LogEvent
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Logger
+DEBUG - org.apache.log4j.NDC
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 67
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.CategoryKey,org.apache.log4j.lf5.viewer.TrackingAdjustmentListener,org.apache.log4j.helpers.DateLayout,org.apache.log4j.chainsaw.ControlPanel and org.apache.log4j.lf5.viewer.configure.MRUFileManager,org.apache.log4j.chainsaw.ExitAction,org.apache.log4j.spi.RootLogger,org.apache.log4j.spi.ErrorHandler
+DEBUG - dummy
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Level
+DEBUG - org.apache.log4j.Logger
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 66
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.spi.RendererSupport,org.apache.log4j.pattern.FileLocationPatternConverter,org.apache.log4j.helpers.AppenderAttachableImpl,org.apache.log4j.xml.UnrecognizedElementHandler and org.apache.log4j.config.PropertyPrinter,org.apache.log4j.varia.LevelRangeFilter,org.apache.log4j.AsyncAppender$DiscardSummary,org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.Appender
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 65
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.chainsaw.MyTableModel,org.apache.log4j.net.DefaultEvaluator,org.apache.log4j.DailyRollingFileAppender,org.apache.log4j.chainsaw.LoadXMLAction and org.apache.log4j.or.DefaultRenderer,org.apache.log4j.xml.Log4jEntityResolver,org.apache.log4j.spi.ThrowableRendererSupport,org.apache.log4j.Appender
+DEBUG - org.apache.log4j.spi.ErrorHandler
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.spi.LoggingEvent
+DEBUG - org.apache.log4j.Layout
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 64
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter,org.apache.log4j.spi.LoggingEvent,org.apache.log4j.lf5.viewer.LogTableRowRenderer,org.apache.log4j.spi.ThrowableInformation and org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator,org.apache.log4j.lf5.LogRecordFilter,org.apache.log4j.varia.FallbackErrorHandler,org.apache.log4j.AppenderSkeleton
+DEBUG - org.apache.log4j.Priority
+DEBUG - org.apache.log4j.helpers.LogLog
+DEBUG - org.apache.log4j.lf5.LogRecord
+DEBUG - org.apache.log4j.Level
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 63
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogTable,org.apache.log4j.lf5.viewer.configure.ConfigurationManager,org.apache.log4j.lf5.viewer.FilteredLogTableModel,org.apache.log4j.lf5.viewer.LogBrokerMonitor$19 and org.apache.log4j.lf5.AppenderFinalizer,org.apache.log4j.lf5.viewer.LogBrokerMonitor$11,org.apache.log4j.config.PropertySetter,org.apache.log4j.lf5.viewer.LogBrokerMonitor$12
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - org.apache.log4j.lf5.viewer.LogTable
+DEBUG - org.apache.log4j.lf5.LogLevel
+DEBUG - org.apache.log4j.lf5.viewer.FilteredLogTableModel
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 62
+DEBUG - time to identify two most similar clusters: 0
+DEBUG - In, printTwoMostSimilarClustersUsingStructuralData, 
+Max Similar Clusters: 
+DEBUG - Features shared between org.apache.log4j.lf5.viewer.LogBrokerMonitor$13,org.apache.log4j.lf5.viewer.LogBrokerMonitor$14,org.apache.log4j.lf5.viewer.LogBrokerMonitor$15,org.apache.log4j.lf5.viewer.LogBrokerMonitor$16 and org.apache.log4j.lf5.viewer.LogBrokerMonitor$17,org.apache.log4j.lf5.viewer.LogBrokerMonitor$18,org.apache.log4j.chainsaw.EventDetails,org.apache.log4j.net.JMSAppender
+DEBUG - org.apache.log4j.lf5.viewer.LogBrokerMonitor
+DEBUG - 0.0
+DEBUG - 
+
+DEBUG - before merge, clusters size: 61
+DEBUG - Performing post processing at 60 number of clusters
+DEBUG - Writing mapping of clusters to integers to CurrProj.getNumbereNodeMappingTextFilename()...
+DEBUG - In edu.usc.softarch.arcade.clustering.StringGraph. writeXMLClusterGraph, Wrote data/Abdera/Abdera_cluster_graph.xml
+DEBUG - Time in milliseconds to compute clusters after priority queue initialization: 926
+DEBUG - max cluster gain: 0.0
+DEBUG - num clusters at max cluster gain: 0
+DEBUG - Time in seconds to compute clusters: 0
+DEBUG - Time in milliseconds to compute clusters: 941
+DEBUG - Final clusters: null

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_15.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_20.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_25.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_30.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_35.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_40.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_45.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_50.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_55.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
+java -jar mojo.jar log4j_modules_packages_dependencies_limbo_60.rsf log4j_packages_class_dependencies_cleaned.rsf -fm
