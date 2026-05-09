@@ -309,3 +309,4 @@ contain org.apache.log4j.xml org.apache.log4j.xml.SAXErrorHandler
 contain org.apache.log4j.xml org.apache.log4j.xml.UnrecognizedElementHandler
 contain org.apache.log4j.xml org.apache.log4j.xml.XMLLayout
 contain org.apache.log4j.xml org.apache.log4j.xml.XMLWatchdog
+contain dummy dummy
