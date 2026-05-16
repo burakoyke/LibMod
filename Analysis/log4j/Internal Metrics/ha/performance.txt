@@ -1,0 +1,1248 @@
+Item: dummy
+Package Size: 56 | Module Size: 18 | Redundant 235
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.config.PropertyPrinter
+Package Size: 8 | Module Size: 2 | Redundant 91
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.DailyRollingFileAppender
+Package Size: 6 | Module Size: 3 | Redundant 145
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Dispatcher
+Package Size: 4 | Module Size: 3 | Redundant 147
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.EnhancedPatternLayout
+Package Size: 7 | Module Size: 4 | Redundant 181
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.EnhancedThrowableRenderer
+Package Size: 2 | Module Size: 2 | Redundant 115
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.UtilLoggingLevel
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.HTMLLayout
+Package Size: 6 | Module Size: 3 | Redundant 145
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jdbc.JDBCAppender
+Package Size: 7 | Module Size: 2 | Redundant 110
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jmx.Agent
+Package Size: 2 | Module Size: 2 | Redundant 99
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.DefaultLF5Configurator
+Package Size: 3 | Module Size: 2 | Redundant 114
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.StartLogFactor5
+Package Size: 3 | Module Size: 2 | Redundant 101
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.util.LogMonitorAdapter
+Package Size: 4 | Module Size: 3 | Redundant 107
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter
+Package Size: 5 | Module Size: 2 | Redundant 27
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.LogMF
+Package Size: 6 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.LogSF
+Package Size: 6 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.JMSAppender
+Package Size: 5 | Module Size: 3 | Redundant 146
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.JMSSink
+Package Size: 4 | Module Size: 3 | Redundant 125
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SimpleSocketServer
+Package Size: 6 | Module Size: 4 | Redundant 139
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SocketServer
+Package Size: 8 | Module Size: 3 | Redundant 125
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SyslogAppender
+Package Size: 8 | Module Size: 3 | Redundant 143
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.nt.NTEventLogAppender
+Package Size: 6 | Module Size: 3 | Redundant 145
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.or.jms.MessageRenderer
+Package Size: 2 | Module Size: 2 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.or.sax.AttributesRenderer
+Package Size: 1 | Module Size: 1 | Redundant 3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.or.ThreadGroupRenderer
+Package Size: 2 | Module Size: 2 | Redundant 96
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.ClassNamePatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 57
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.FileDatePatternConverter
+Package Size: 2 | Module Size: 1 | Redundant 35
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.FileLocationPatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 57
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.FullLocationPatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 57
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.IntegerPatternConverter
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.LevelPatternConverter
+Package Size: 3 | Module Size: 3 | Redundant 151
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.LineLocationPatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 57
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.LineSeparatorPatternConverter
+Package Size: 3 | Module Size: 3 | Redundant 151
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.LoggerPatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.MessagePatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.MethodLocationPatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 57
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NDCPatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.PropertiesPatternConverter
+Package Size: 4 | Module Size: 3 | Redundant 90
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.SequenceNumberPatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.ThreadPatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.ThrowableInformationPatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 57
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.rewrite.MapRewritePolicy
+Package Size: 7 | Module Size: 3 | Redundant 115
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.rewrite.PropertyRewritePolicy
+Package Size: 7 | Module Size: 3 | Redundant 115
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.rewrite.ReflectionRewritePolicy
+Package Size: 8 | Module Size: 4 | Redundant 148
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.rewrite.RewriteAppender
+Package Size: 9 | Module Size: 5 | Redundant 159
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.SimpleLayout
+Package Size: 3 | Module Size: 2 | Redundant 114
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.RootCategory
+Package Size: 3 | Module Size: 2 | Redundant 125
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.VectorWriter
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.DenyAllFilter
+Package Size: 2 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.FallbackErrorHandler
+Package Size: 5 | Module Size: 3 | Redundant 146
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.LevelMatchFilter
+Package Size: 4 | Module Size: 3 | Redundant 147
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.LevelRangeFilter
+Package Size: 4 | Module Size: 2 | Redundant 113
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.NullAppender
+Package Size: 2 | Module Size: 2 | Redundant 115
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.ReloadingPropertyConfigurator
+Package Size: 3 | Module Size: 2 | Redundant 114
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.Roller
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.StringMatchFilter
+Package Size: 3 | Module Size: 2 | Redundant 54
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.XMLLayout
+Package Size: 5 | Module Size: 3 | Redundant 146
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Appender
+Package Size: 4 | Module Size: 2 | Redundant 113
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Layout
+Package Size: 2 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.ErrorHandler
+Package Size: 4 | Module Size: 2 | Redundant 113
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.Filter
+Package Size: 2 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.LoggingEvent
+Package Size: 12 | Module Size: 4 | Redundant 143
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.AppenderSkeleton
+Package Size: 10 | Module Size: 3 | Redundant 141
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.LogLog
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.OnlyOnceErrorHandler
+Package Size: 5 | Module Size: 3 | Redundant 146
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Level
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Priority
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.OptionHandler
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.AsyncAppender$DiscardSummary
+Package Size: 6 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.AsyncAppender
+Package Size: 9 | Module Size: 3 | Redundant 142
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Category
+Package Size: 12 | Module Size: 3 | Redundant 139
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Logger
+Package Size: 6 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.AsyncAppender$Dispatcher
+Package Size: 4 | Module Size: 3 | Redundant 147
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.AppenderAttachableImpl
+Package Size: 3 | Module Size: 2 | Redundant 114
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.AppenderAttachable
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.LocationInfo
+Package Size: 2 | Module Size: 2 | Redundant 126
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.BasicConfigurator
+Package Size: 6 | Module Size: 1 | Redundant 88
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.ConsoleAppender
+Package Size: 5 | Module Size: 2 | Redundant 123
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.LogManager
+Package Size: 12 | Module Size: 3 | Redundant 139
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.PatternLayout
+Package Size: 4 | Module Size: 3 | Redundant 147
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.CategoryKey
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.NullEnumeration
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.Hierarchy
+Package Size: 16 | Module Size: 4 | Redundant 139
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.HierarchyEventListener
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.LoggerRepository
+Package Size: 6 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel$1
+Package Size: 3 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel
+Package Size: 12 | Module Size: 2 | Redundant 102
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.MyTableModel
+Package Size: 5 | Module Size: 2 | Redundant 109
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel$2
+Package Size: 2 | Module Size: 1 | Redundant 18
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel$3
+Package Size: 2 | Module Size: 1 | Redundant 18
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel$4
+Package Size: 2 | Module Size: 1 | Redundant 18
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel$5
+Package Size: 2 | Module Size: 1 | Redundant 18
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel$6
+Package Size: 2 | Module Size: 1 | Redundant 18
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ControlPanel$7
+Package Size: 2 | Module Size: 1 | Redundant 18
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.ExitAction
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.DetailPanel
+Package Size: 4 | Module Size: 2 | Redundant 110
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.EventDetails
+Package Size: 4 | Module Size: 2 | Redundant 113
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.LoadXMLAction
+Package Size: 3 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.XMLFileHandler
+Package Size: 4 | Module Size: 2 | Redundant 110
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.LoggingReceiver$Slurper
+Package Size: 5 | Module Size: 3 | Redundant 132
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.LoggingReceiver
+Package Size: 3 | Module Size: 2 | Redundant 111
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.Main$1
+Package Size: 2 | Module Size: 1 | Redundant 18
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.Main
+Package Size: 9 | Module Size: 2 | Redundant 105
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.PropertyConfigurator
+Package Size: 22 | Module Size: 5 | Redundant 138
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.MyTableModel$1
+Package Size: 1 | Module Size: 1 | Redundant 19
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.chainsaw.MyTableModel$Processor
+Package Size: 3 | Module Size: 1 | Redundant 17
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.config.PropertyGetter$PropertyCallback
+Package Size: 1 | Module Size: 1 | Redundant 4
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.config.PropertyGetter
+Package Size: 2 | Module Size: 2 | Redundant 37
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.config.PropertySetterException
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.config.PropertySetter
+Package Size: 6 | Module Size: 4 | Redundant 150
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.OptionConverter
+Package Size: 6 | Module Size: 3 | Redundant 145
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.ConsoleAppender$SystemErrStream
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.ConsoleAppender$SystemOutStream
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.WriterAppender
+Package Size: 6 | Module Size: 3 | Redundant 145
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.FileAppender
+Package Size: 5 | Module Size: 3 | Redundant 146
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.RollingCalendar
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.DefaultCategoryFactory
+Package Size: 2 | Module Size: 2 | Redundant 115
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.LoggerFactory
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.DefaultThrowableRenderer
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.ThrowableRenderer
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.BoundedFIFO
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 55
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser
+Package Size: 16 | Module Size: 2 | Redundant 112
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.BridgePatternConverter
+Package Size: 6 | Module Size: 3 | Redundant 88
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.BridgePatternParser
+Package Size: 3 | Module Size: 2 | Redundant 68
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.QuietWriter
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.AbsoluteTimeDateFormat
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.CountingQuietWriter
+Package Size: 2 | Module Size: 2 | Redundant 55
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.CyclicBuffer
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.DateLayout
+Package Size: 6 | Module Size: 3 | Redundant 145
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.DateTimeDateFormat
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.ISO8601DateFormat
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.RelativeTimeDateFormat
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.FileWatchdog
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.FormattingInfo
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.Loader
+Package Size: 2 | Module Size: 1 | Redundant 32
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.MDCKeySetExtractor
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.LogEvent
+Package Size: 13 | Module Size: 4 | Redundant 142
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.Configurator
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$BasicPatternConverter
+Package Size: 5 | Module Size: 3 | Redundant 146
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$CategoryPatternConverter
+Package Size: 4 | Module Size: 2 | Redundant 53
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$NamedPatternConverter
+Package Size: 4 | Module Size: 2 | Redundant 53
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$ClassNamePatternConverter
+Package Size: 5 | Module Size: 2 | Redundant 52
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$DatePatternConverter
+Package Size: 5 | Module Size: 2 | Redundant 52
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$LiteralPatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 54
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$LocationPatternConverter
+Package Size: 5 | Module Size: 2 | Redundant 52
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.PatternParser$MDCPatternConverter
+Package Size: 4 | Module Size: 2 | Redundant 53
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.SyslogQuietWriter
+Package Size: 2 | Module Size: 2 | Redundant 55
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.SyslogWriter
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.ThreadLocalMap
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.helpers.Transform
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.or.ObjectRenderer
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.or.RendererMap
+Package Size: 6 | Module Size: 3 | Redundant 55
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.ProvisionNode
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.RendererSupport
+Package Size: 2 | Module Size: 1 | Redundant 2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.ThrowableRendererSupport
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jmx.AbstractDynamicMBean
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jmx.HierarchyDynamicMBean
+Package Size: 10 | Module Size: 4 | Redundant 148
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jmx.AppenderDynamicMBean
+Package Size: 9 | Module Size: 4 | Redundant 149
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jmx.LayoutDynamicMBean
+Package Size: 7 | Module Size: 4 | Redundant 151
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jmx.MethodUnion
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.jmx.LoggerDynamicMBean
+Package Size: 6 | Module Size: 3 | Redundant 129
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.AppenderFinalizer
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor
+Package Size: 49 | Module Size: 5 | Redundant 86
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.LF5Appender
+Package Size: 11 | Module Size: 3 | Redundant 116
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.Log4JLogRecord
+Package Size: 3 | Module Size: 2 | Redundant 30
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.LogLevel
+Package Size: 1 | Module Size: 1 | Redundant 9
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.LogLevelFormatException
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.LogRecord
+Package Size: 1 | Module Size: 1 | Redundant 9
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.ThrowableInformation
+Package Size: 5 | Module Size: 2 | Redundant 112
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.LogRecordFilter
+Package Size: 1 | Module Size: 1 | Redundant 9
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.PassingLogRecordFilter
+Package Size: 2 | Module Size: 1 | Redundant 8
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.util.AdapterLogRecord
+Package Size: 2 | Module Size: 1 | Redundant 8
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.util.DateFormatManager
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.util.LogFileParser$1
+Package Size: 1 | Module Size: 1 | Redundant 6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.util.LogFileParser
+Package Size: 8 | Module Size: 3 | Redundant 103
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5LoadingDialog
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.util.Resource
+Package Size: 1 | Module Size: 1 | Redundant 6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.util.ResourceUtils
+Package Size: 1 | Module Size: 1 | Redundant 6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel
+Package Size: 5 | Module Size: 2 | Redundant 27
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath
+Package Size: 1 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1
+Package Size: 2 | Module Size: 1 | Redundant 20
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1
+Package Size: 2 | Module Size: 1 | Redundant 20
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree
+Package Size: 6 | Module Size: 1 | Redundant 16
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.TreeModelAdapter
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor
+Package Size: 3 | Module Size: 1 | Redundant 19
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor
+Package Size: 12 | Module Size: 1 | Redundant 10
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer
+Package Size: 1 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1
+Package Size: 3 | Module Size: 1 | Redundant 19
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2
+Package Size: 2 | Module Size: 1 | Redundant 20
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3
+Package Size: 2 | Module Size: 1 | Redundant 20
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4
+Package Size: 3 | Module Size: 1 | Redundant 19
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5
+Package Size: 3 | Module Size: 1 | Redundant 19
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6
+Package Size: 2 | Module Size: 1 | Redundant 20
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7
+Package Size: 2 | Module Size: 1 | Redundant 20
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8
+Package Size: 1 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer
+Package Size: 1 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.configure.ConfigurationManager
+Package Size: 10 | Module Size: 3 | Redundant 116
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogTable
+Package Size: 5 | Module Size: 2 | Redundant 96
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogTableColumn
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogTableColumnFormatException
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.configure.MRUFileManager
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.FilteredLogTableModel
+Package Size: 4 | Module Size: 1 | Redundant 6
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LF5SwingUtils$1
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LF5SwingUtils
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.TrackingAdjustmentListener
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$10
+Package Size: 4 | Module Size: 2 | Redundant 100
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$11
+Package Size: 2 | Module Size: 2 | Redundant 102
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$12
+Package Size: 3 | Module Size: 1 | Redundant 91
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$13
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$14
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$15
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$16
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$17
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$18
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$19
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$1
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$20
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$21
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$22
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$23
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$24
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$25
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$26
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$27
+Package Size: 3 | Module Size: 1 | Redundant 91
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$28
+Package Size: 4 | Module Size: 2 | Redundant 100
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$29
+Package Size: 5 | Module Size: 3 | Redundant 121
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$2
+Package Size: 6 | Module Size: 3 | Redundant 120
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$30
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$31
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$32
+Package Size: 2 | Module Size: 2 | Redundant 102
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$3
+Package Size: 7 | Module Size: 3 | Redundant 119
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$4
+Package Size: 7 | Module Size: 3 | Redundant 119
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$5
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$6
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$7
+Package Size: 3 | Module Size: 1 | Redundant 91
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$8
+Package Size: 3 | Module Size: 1 | Redundant 91
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$9
+Package Size: 3 | Module Size: 1 | Redundant 91
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogBrokerMonitor$LogBrokerMonitorWindowAdaptor
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5InputDialog
+Package Size: 4 | Module Size: 1 | Redundant 90
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5Dialog
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogTable$LogTableListSelectionListener
+Package Size: 2 | Module Size: 1 | Redundant 92
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.lf5.viewer.LogTableRowRenderer
+Package Size: 3 | Module Size: 2 | Redundant 101
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.DefaultRepositorySelector
+Package Size: 2 | Module Size: 1 | Redundant 21
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.NOPLoggerRepository
+Package Size: 8 | Module Size: 2 | Redundant 109
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.RepositorySelector
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.RootLogger
+Package Size: 3 | Module Size: 2 | Redundant 125
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.LogXF
+Package Size: 5 | Module Size: 2 | Redundant 112
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.MDC
+Package Size: 2 | Module Size: 1 | Redundant 32
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.NameValue
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.NDC$DiagnosticContext
+Package Size: 1 | Module Size: 1 | Redundant 93
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.NDC
+Package Size: 2 | Module Size: 2 | Redundant 126
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.DefaultEvaluator
+Package Size: 4 | Module Size: 2 | Redundant 113
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.TriggeringEventEvaluator
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.DOMConfigurator
+Package Size: 29 | Module Size: 6 | Redundant 143
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SocketNode
+Package Size: 5 | Module Size: 2 | Redundant 112
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SMTPAppender$1
+Package Size: 1 | Module Size: 1 | Redundant 15
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SMTPAppender
+Package Size: 14 | Module Size: 5 | Redundant 165
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.UnrecognizedElementHandler
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SocketAppender$Connector
+Package Size: 2 | Module Size: 2 | Redundant 48
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SocketAppender
+Package Size: 7 | Module Size: 4 | Redundant 160
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.ZeroConfSupport
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SocketHubAppender$ServerMonitor
+Package Size: 4 | Module Size: 3 | Redundant 69
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.SocketHubAppender
+Package Size: 7 | Module Size: 4 | Redundant 160
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.TelnetAppender$SocketHandler
+Package Size: 2 | Module Size: 2 | Redundant 48
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.net.TelnetAppender
+Package Size: 4 | Module Size: 3 | Redundant 129
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.TTCCLayout
+Package Size: 3 | Module Size: 3 | Redundant 148
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.or.DefaultRenderer
+Package Size: 1 | Module Size: 1 | Redundant 3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.FormattingInfo
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.LiteralPatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.LoggingEventPatternConverter
+Package Size: 2 | Module Size: 2 | Redundant 58
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.PatternParser
+Package Size: 6 | Module Size: 2 | Redundant 65
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.CachedDateFormat
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NamePatternConverter
+Package Size: 2 | Module Size: 1 | Redundant 35
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.DatePatternConverter$DefaultZoneDateFormat
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.DatePatternConverter
+Package Size: 5 | Module Size: 3 | Redundant 89
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.PatternConverter
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NameAbbreviator$DropElementAbbreviator
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NameAbbreviator
+Package Size: 5 | Module Size: 1 | Redundant 32
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NameAbbreviator$MaxElementAbbreviator
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NameAbbreviator$NOPAbbreviator
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviatorFragment
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.NameAbbreviator$PatternAbbreviator
+Package Size: 2 | Module Size: 1 | Redundant 35
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.PatternParser$ReadOnlyMap
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.RelativeTimePatternConverter$CachedTimestamp
+Package Size: 1 | Module Size: 1 | Redundant 36
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.pattern.RelativeTimePatternConverter
+Package Size: 3 | Module Size: 2 | Redundant 57
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.PropertyWatchdog
+Package Size: 4 | Module Size: 3 | Redundant 147
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.SortedKeyEnumeration
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.rewrite.RewritePolicy
+Package Size: 1 | Module Size: 1 | Redundant 22
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.RollingFileAppender
+Package Size: 8 | Module Size: 3 | Redundant 143
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.NOPLogger
+Package Size: 8 | Module Size: 2 | Redundant 109
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.spi.NullWriter
+Package Size: 1 | Module Size: 1 | Redundant 0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.ExternallyRolledFileAppender
+Package Size: 2 | Module Size: 2 | Redundant 103
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.HUP
+Package Size: 3 | Module Size: 2 | Redundant 42
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.varia.HUPNode
+Package Size: 2 | Module Size: 2 | Redundant 43
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.DOMConfigurator$1
+Package Size: 2 | Module Size: 1 | Redundant 10
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.DOMConfigurator$ParseAction
+Package Size: 1 | Module Size: 1 | Redundant 11
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.DOMConfigurator$2
+Package Size: 2 | Module Size: 1 | Redundant 10
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.DOMConfigurator$3
+Package Size: 2 | Module Size: 1 | Redundant 10
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.DOMConfigurator$4
+Package Size: 2 | Module Size: 1 | Redundant 10
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.DOMConfigurator$5
+Package Size: 2 | Module Size: 1 | Redundant 10
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.Log4jEntityResolver
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.SAXErrorHandler
+Package Size: 1 | Module Size: 1 | Redundant 33
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+Item: org.apache.log4j.xml.XMLWatchdog
+Package Size: 4 | Module Size: 4 | Redundant 159
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 

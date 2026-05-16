@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Dosya isimleri ve sonuç etiketleri
-files=("acdc_c.rsf" "mgmc_c.rsf" "bunch_nahc_c.rsf" "bunch_sahc_c.rsf" "ilp.rsf" "limbo_75_c.rsf" )
-labels=("ACDC Result" "MGMC Result" "Bunch-NAHC Result" "Bunch-SAHC Result" "Model V1 Result" "Limbo-75")
+files=("acdc_c.rsf" "mgmc_c.rsf" "bunch_nahc_c.rsf" "bunch_sahc_c.rsf" "ilp.rsf" "limbo_75_c.rsf" "ha_c.rsf" )
+labels=("ACDC Result" "MGMC Result" "Bunch-NAHC Result" "Bunch-SAHC Result" "Model V1 Result" "Limbo-75" "HA")
 
 # LC_NUMERIC'i ayarla (ondalık ayırıcı olarak nokta kullanılır)
 export LC_NUMERIC="C"
