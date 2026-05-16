@@ -31,16 +31,13 @@ class PerformanceMeasuring {
         // Print unique packages
         //uniquePackage.forEach(System.out::println);
     
-
+       
         ArrayList<String> package_package = package_convert_list("packages_packages_dependencies.rsf");
-        ArrayList<String> module_package = package_convert_list("model_v1_clustering.rsf");
-
-
+        ArrayList<String> module_package = package_convert_list("log4j_packages_class_dependencies_ilp.rsf");
         writeHeader();
         int totalPackSize = 0;
         int totalModuleSize = 0;
         int totalRedundant = 0;
-        
 
         for (String item : uniquePackage) {
 
